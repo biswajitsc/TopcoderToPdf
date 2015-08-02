@@ -1,0 +1,406 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(n,t,e){function r(e){if(!t[e]){var o=t[e]={exports:{}};n[e][0].call(o.exports,function(t){var o=n[e][1][t];return r(o?o:t)},o,o.exports)}return t[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(n,t){function e(n){function t(t,e,a){n&&n(t,e,a),a||(a={});for(var u=c(t),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,e);return s}function a(n,t){f[n]=c(n).concat(t)}function c(n){return f[n]||[]}function u(){return e(t)}var f={};return{on:a,emit:t,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=n("gos");t.exports=e()},{gos:"7eSDFh"}],ee:[function(n,t){t.exports=n("QJf3ax")},{}],gos:[function(n,t){t.exports=n("7eSDFh")},{}],"7eSDFh":[function(n,t){function e(n,t,e){if(r.call(n,t))return n[t];var o=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return n[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=e},{}],D5DuLP:[function(n,t){function e(n,t,e){return r.listeners(n).length?r.emit(n,t,e):(o[n]||(o[n]=[]),void o[n].push(t))}var r=n("ee").create(),o={};t.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(n,t){t.exports=n("D5DuLP")},{}],XL7HBI:[function(n,t){function e(n){var t=typeof n;return!n||"object"!==t&&"function"!==t?-1:n===window?0:i(n,o,function(){return r++})}var r=1,o="nr@id",i=n("gos");t.exports=e},{gos:"7eSDFh"}],id:[function(n,t){t.exports=n("XL7HBI")},{}],loader:[function(n,t){t.exports=n("G9z0Bl")},{}],G9z0Bl:[function(n,t){function e(){var n=v.info=NREUM.info;if(n&&n.licenseKey&&n.applicationID&&f&&f.body){c(d,function(t,e){t in n||(n[t]=e)}),v.proto="https"===l.split(":")[0]||n.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var t=f.createElement("script");t.src=v.proto+n.agent,f.body.appendChild(t)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=n("handle"),c=n(1),u=window,f=u.document,s="addEventListener",p="attachEvent",l=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},v=t.exports={offset:i(),origin:l,features:{}};f[s]?(f[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(f[p]("onreadystatechange",r),u[p]("onload",e)),a("mark",["firstbyte",i()])},{1:11,handle:"D5DuLP"}],11:[function(n,t){function e(n,t){var e=[],o="",i=0;for(o in n)r.call(n,o)&&(e[i]=t(o,n[o]),i+=1);return e}var r=Object.prototype.hasOwnProperty;t.exports=e},{}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for Tothello
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <pre>THIS PROBLEM WAS TAKEN FROM THE SEMIFINALS OF THE TOPCODER INVITATIONAL
+TOURNAMENT
+
+Class Name: Tothello
+Method Name: bestMove
+Parameters: String[], String[], String
+Returns: int
+Method signature (be sure your method is public):  int bestMove(String[]
+redPieces, String[] blackPieces, String whoseTurn);
+
+
+PROBLEM STATEMENT
+The game Tothello is a TopCoder modified version of the board game Othello.
+The game is played on an 8 x 8 grid with two players, Black and Red.  The
+players alternate turns placing one piece representing their color in one empty
+square of the grid.  When the Red player puts a red piece down, any black
+pieces that end up between the piece that was placed on the board and any other
+red piece already on the board should be changed to red.  If the change in
+color from black to red of any piece on the board causes other black pieces to
+lie between two red pieces, those black pieces should also be changed to red.
+The changing of black pieces will continue until no one black piece lies
+between two red pieces.  The manner that pieces change color apply when the
+Black player places a piece on the grid, however, the pieces would then change
+from red to black.  A player also has the option of passing - not putting any
+pieces down - on his turn, in which case the other player just gets to go twice
+in a row.
+
+You are to write a program that helps a player determine their best possible
+move - the move that results in the most pieces being that player's color at
+the end of the move. 
+
+Implement a class Tothello that contains a method bestMove.  bestMove inputs
+the current state of the grid before a specified player's move and outputs the
+number of the player's pieces on the board as a result of the player's best
+move.  
+
+NOTES
+- redPieces is a String[] representing the current positions of red pieces on
+the board.  
+- blackPieces is a String[] representing the current positions of black pieces
+on the board.  
+- The board is an 8x8 grid with the columns referred to by the uppercase
+letters A-H and the rows referred to by the numbers 1-8 (inclusive).  The
+column is specified before the row.  A1 is in the upper left.  H8 is in the
+lower right. 
+- redPieces and blackPieces are not necessarily the same length (players may
+have passed on moves).
+- A black piece is between two red pieces if a red piece can be found before an
+empty square on either side by following the horizontal, vertical, or either
+diagonal out from the Black piece.  For example:
+
+- - - R - - - -
+- - - B - - - -
+- - - B - - - -    All three Black pieces are between two red pieces.
+- - - B - - - -
+- - - R - - - -
+
+
+- - - R - - - -
+- - - B B - - -
+- - - B - B - -   All four Black pieces are between two Red pieces.
+- - - R R R R R
+
+
+- - - R - - - -
+- - - B R - - -
+- - - - - - - -   The Black piece is not between two Red pieces.
+- - - R R - - -
+
+
+R R R R R R R R
+R - - - - - - R
+R - B B - B - R
+R - B B B B - R   None of the Black pieces are between two Red pieces.
+R - - - - - - R
+R R R R R R R R
+
+TopCoder will ensure the validity of the inputs.  Inputs are valid if all of
+the following criteria are met:
+- Both redPieces and blackPieces contain between 0 and 50 elements (inclusive).
+- All elements of redPieces and blackPieces consist of uppercase letters A-H
+and numbers 1-8 (inclusive).
+- All elements of redPieces and blackPieces are in the form of letter-number
+pairs with each letter representing the column and each number representing the
+row of the piece's position (i.e. "A2" where 'A' is the column and '2' is the
+row of the piece's position).
+- whoseTurn is a String that is equal to either "Red" or "Black" representing
+the player for which the method is being run.
+- The current state of the board represented by redPieces and blackPieces
+contains no red pieces between any black pieces and no black pieces between any
+red pieces (a state where there were black pieces between red pieces is
+impossible at the start of a move, assuming the game has been played
+correctly.)  
+- The elements are unique in redPieces and blackPieces, and redPieces and
+blackPieces do not contain any of the same elements.
+- The game board must start with at least one unoccupied space.
+
+EXAMPLES
+If redPieces=[C2,C3,C4,C5,D4,E4,F2,F3,F4,F5,G6] and
+blackPieces=[B1,E1,G1,C6,H7,G4] and whoseTurn="Black", 
+Before the player's move, the board is:
+
+  A B C D E F G H
+1 - B - - B - B -
+2 - - R - - R - -
+3 - - R - - R - -
+4 - - R R R R B -  
+5 - - R - - R - -
+6 - - B - - - R - 
+7 - - - - - - - B
+8 - - - - - - - -
+
+Black's best move is C1, which results in:
+
+A B C D E F G H       A B C D E F G H       A B C D E F G H      A B C D E F
+G H
+1 - B - - B - B -     1 - B B - B - B -     1 - B B - B - B -     1-BB-B-B- 
+2 - - R - - R - -     2 - - B - - R - -     2 - - B - - R - -     2 - - B - - R
+- -
+3 - - R - - R - -     3 - - B - - R - -     3 - - B - - R - -     3 - - B - - R
+- -
+4 - - R R R R B - --&gt; 4 - - B R R R B - --&gt; 4 - - B B B B B - --&gt; 4 - - B B B B
+B -
+5 - - R - - R - -     5 - - B - - R - -     5 - - B - - R - -     5 - - B - - B
+- -
+6 - - B - - - R -     6 - - B - - - R -     6 - - B - - - R -     6 - - B - - -
+B -
+7 - - - - - - - B      7 - - - - - - - B     7 - - - - - - - B     7 - - - - -
+- - B
+8 - - - - - - - -     8 - - - - - - - -     8 - - - - - - - -     8 - - - - - -
+- -
+
+There end up being 16 black pieces, so the method should return 16.
+
+If redPieces=[A1,B8,C6,C8,D8] and blackPieces=[B2,C2,C3,C4,C5] and
+whoseTurn="Red", Red's best move is C1, and the method should return 11.
+
+
+</pre>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 Tothello
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 bestMove
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], String[], String
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 int bestMove(String[] param0, String[] param1, String param2)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=53&amp;pm=203">
+            2001 Invitational Semifinals A - Division I, Level Two
+           </a>
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=54&amp;pm=203">
+            2001 Invitational Semifinals B - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":12,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-515.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

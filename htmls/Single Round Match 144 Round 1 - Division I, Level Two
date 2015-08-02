@@ -1,0 +1,648 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for Lottery
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               In most states, gamblers can choose from a wide variety of different lottery games.  The rules of a lottery are defined by two integers (
+               <i>
+                choices
+               </i>
+               and
+               <i>
+                blanks
+               </i>
+               ) and two boolean variables (
+               <i>
+                sorted
+               </i>
+               and
+               <i>
+                unique
+               </i>
+               ).
+               <i>
+                choices
+               </i>
+               represents the highest valid number that you may use on your lottery ticket.  (All integers between 1 and
+               <i>
+                choices
+               </i>
+               , inclusive, are valid and can appear on your ticket.)
+               <i>
+                blanks
+               </i>
+               represents the number of spots on your ticket where numbers can be written.
+              </p>
+              <p>
+               The
+               <i>
+                sorted
+               </i>
+               and
+               <i>
+                unique
+               </i>
+               variables indicate restrictions on the tickets you can create.  If
+               <i>
+                sorted
+               </i>
+               is set to true, then the numbers on your ticket must be written in non-descending order.  If
+               <i>
+                sorted
+               </i>
+               is set to false, then the numbers may be written in any order.  Likewise, if
+               <i>
+                unique
+               </i>
+               is set to true, then each number you write on your ticket must be distinct.  If
+               <i>
+                unique
+               </i>
+               is set to false, then repeats are allowed.
+              </p>
+              <p>
+               Here are some example lottery tickets, where
+               <i>
+                choices
+               </i>
+               = 15 and
+               <i>
+                blanks
+               </i>
+               = 4:
+              </p>
+              <ul>
+               <li>
+                {3, 7, 12, 14} -- this ticket is unconditionally valid.
+               </li>
+               <li>
+                {13, 4, 1, 9} -- because the numbers are not in nondescending order, this ticket is valid only if
+                <i>
+                 sorted
+                </i>
+                = false.
+               </li>
+               <li>
+                {8, 8, 8, 15} -- because there are repeated numbers, this ticket is valid only if
+                <i>
+                 unique
+                </i>
+                = false.
+               </li>
+               <li>
+                {11, 6, 2, 6} -- this ticket is valid only if
+                <i>
+                 sorted
+                </i>
+                = false and
+                <i>
+                 unique
+                </i>
+                = false.
+               </li>
+              </ul>
+              <p>
+               Given a list of lotteries and their corresponding rules, return a list of lottery names sorted by how easy they are to win.  The probability that you will win a lottery is equal to (1 / (number of valid lottery tickets for that game)).  The easiest lottery to win should appear at the front of the list.  Ties should be broken alphabetically (see example 1).
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 Lottery
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 sortByOdds
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] sortByOdds(String[] rules)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               rules
+              </b>
+              will contain between 0 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               rules
+              </b>
+              will contain between 11 and 50 characters, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               rules
+              </b>
+              will be in the format
+              <tt>
+               "&lt;NAME&gt;:_&lt;CHOICES&gt;_&lt;BLANKS&gt;_&lt;SORTED&gt;_&lt;UNIQUE&gt;"
+              </tt>
+              (quotes for clarity). The underscore character represents exactly one space. The string will have no leading or trailing spaces.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <tt>
+               &lt;NAME&gt;
+              </tt>
+              will contain between 1 and 40 characters, inclusive, and will consist of only uppercase letters ('A'-'Z') and spaces (' '), with no leading or trailing spaces.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <tt>
+               &lt;CHOICES&gt;
+              </tt>
+              will be an integer between 10 and 100, inclusive, with no leading zeroes.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <tt>
+               &lt;BLANKS&gt;
+              </tt>
+              will be an integer between 1 and 8, inclusive, with no leading zeroes.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <tt>
+               &lt;SORTED&gt;
+              </tt>
+              will be either 'T' (true) or 'F' (false).
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <tt>
+               &lt;UNIQUE&gt;
+              </tt>
+              will be either 'T' (true) or 'F' (false).
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              No two elements in
+              <b>
+               rules
+              </b>
+              will have the same name.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"PICK ANY TWO: 10 2 F F"
+,"PICK TWO IN ORDER: 10 2 T F"
+,"PICK TWO DIFFERENT: 10 2 F T"
+,"PICK TWO LIMITED: 10 2 T T"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "PICK TWO LIMITED",
+ "PICK TWO IN ORDER",
+ "PICK TWO DIFFERENT",
+ "PICK ANY TWO" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <p>
+                     The "PICK ANY TWO" game lets either blank be a number from 1 to 10.  Therefore, there are 10 * 10 = 100 possible tickets, and your odds of winning are 1/100.
+                    </p>
+                    <p>
+                     The "PICK TWO IN ORDER" game means that the first number cannot be greater than the second number.  This eliminates 45 possible tickets, leaving us with 55 valid ones.  The odds of winning are 1/55.
+                    </p>
+                    <p>
+                     The "PICK TWO DIFFERENT" game only disallows tickets where the first and second numbers are the same.  There are 10 such tickets, leaving the odds of winning at 1/90.
+                    </p>
+                    <p>
+                     Finally, the "PICK TWO LIMITED" game disallows an additional 10 tickets from the 45 disallowed in "PICK TWO IN ORDER".  The odds of winning this game are 1/45.
+                    </p>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"INDIGO: 93 8 T F",
+ "ORANGE: 29 8 F T",
+ "VIOLET: 76 6 F F",
+ "BLUE: 100 8 T T",
+ "RED: 99 8 T T",
+ "GREEN: 78 6 F T",
+ "YELLOW: 75 6 F F"}
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "RED",  "ORANGE",  "YELLOW",  "GREEN",  "BLUE",  "INDIGO",  "VIOLET" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <p>
+                     Note that INDIGO and BLUE both have the exact same odds (1/186087894300).  BLUE is listed first because it comes before INDIGO alphabetically.
+                    </p>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <p>
+                     Empty case
+                    </p>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=4515&amp;pm=1659">
+            Single Round Match 144 Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":107,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

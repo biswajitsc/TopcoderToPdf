@@ -1,0 +1,802 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(n,t,e){function r(e){if(!t[e]){var o=t[e]={exports:{}};n[e][0].call(o.exports,function(t){var o=n[e][1][t];return r(o?o:t)},o,o.exports)}return t[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(n,t){function e(n){function t(t,e,a){n&&n(t,e,a),a||(a={});for(var u=c(t),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,e);return s}function a(n,t){f[n]=c(n).concat(t)}function c(n){return f[n]||[]}function u(){return e(t)}var f={};return{on:a,emit:t,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=n("gos");t.exports=e()},{gos:"7eSDFh"}],ee:[function(n,t){t.exports=n("QJf3ax")},{}],gos:[function(n,t){t.exports=n("7eSDFh")},{}],"7eSDFh":[function(n,t){function e(n,t,e){if(r.call(n,t))return n[t];var o=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return n[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=e},{}],D5DuLP:[function(n,t){function e(n,t,e){return r.listeners(n).length?r.emit(n,t,e):(o[n]||(o[n]=[]),void o[n].push(t))}var r=n("ee").create(),o={};t.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(n,t){t.exports=n("D5DuLP")},{}],XL7HBI:[function(n,t){function e(n){var t=typeof n;return!n||"object"!==t&&"function"!==t?-1:n===window?0:i(n,o,function(){return r++})}var r=1,o="nr@id",i=n("gos");t.exports=e},{gos:"7eSDFh"}],id:[function(n,t){t.exports=n("XL7HBI")},{}],loader:[function(n,t){t.exports=n("G9z0Bl")},{}],G9z0Bl:[function(n,t){function e(){var n=v.info=NREUM.info;if(n&&n.licenseKey&&n.applicationID&&f&&f.body){c(d,function(t,e){t in n||(n[t]=e)}),v.proto="https"===l.split(":")[0]||n.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var t=f.createElement("script");t.src=v.proto+n.agent,f.body.appendChild(t)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=n("handle"),c=n(1),u=window,f=u.document,s="addEventListener",p="attachEvent",l=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},v=t.exports={offset:i(),origin:l,features:{}};f[s]?(f[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(f[p]("onreadystatechange",r),u[p]("onload",e)),a("mark",["firstbyte",i()])},{1:11,handle:"D5DuLP"}],11:[function(n,t){function e(n,t){var e=[],o="",i=0;for(o in n)r.call(n,o)&&(e[i]=t(o,n[o]),i+=1);return e}var r=Object.prototype.hasOwnProperty;t.exports=e},{}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for Whisper
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               When people whisper to each other in the TopCoder arena, they type "/msg &lt;username&gt; &lt;message&gt;" (quotes and angle brackets for clarity only).  However, TopCoder allows users to have spaces in their names.  This leads to some ambiguity in regards to who a whisper is actually addressed to.  For examples if a user types in "/msg John Doe hi there", this could interpreted in a number of ways.  It could be that the user is trying to send the message "Doe hi there" to a user named "John" or it could be that the message is to a user "John Doe", and has content "hi there".
+              </p>
+              <p>
+               To figure this out you should take a list of users who are logged in, and determine, of the users that the message could possibly be to, which one has the longest name.  It may only be to a user if it starts exactly with "/msg &lt;username&gt; ".  That is, "/msg " followed by a single space, followed by the user's handle, followed by another space.  Thus, if someone typed in "/msg John Doe hi there" and the people logged in were {"John","John Doe","John Doe h"}, the message could be to either "John Doe" or "John" (but not "John Doe h" because there is not a space following his handle in the typed string).  Of those two, "John Doe" has the longer name, so we assume it is to him.
+              </p>
+              <p>
+               Additionally, all whispering is case insensitive, so "/msg John Doe hi there" will go to the same person as "/MSG jOHN dOE HI THERE".
+              </p>
+              <p>
+               If there is no user who the message could be to return "user is not logged in" (see examples)
+               <br/>
+               If
+               <b>
+                typed
+               </b>
+               does not begin with "/msg " return "not a whisper" (note that there is a space at the end of "/msg ").
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 Whisper
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 toWhom
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], String
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String toWhom(String[] usernames, String typed)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              A double space in typed does not match a single space in usernames. (see examples)
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              When the user is found, the returned case should match the case in usernames. (see examples)
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               usernames
+              </b>
+              will contain only letters ('a'-'z' and 'A'-'Z'), and spaces.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               usernames
+              </b>
+              will contain between 1 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               usernames
+              </b>
+              will have between 1 and 50 characters in length, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Elements of
+              <b>
+               usernames
+              </b>
+              will not have leading, trailing, or double spaces.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              No two elements of
+              <b>
+               usernames
+              </b>
+              will be identical, ignoring case.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               typed
+              </b>
+              will be between 1 and 50 characters, inclusive and will contain only letters ('a'-'z' and 'A'-'Z'), spaces, and slashes ('/').
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"John","John Doe","John Doe h"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/msg John Doe hi there"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "John Doe"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    "John Doe" is longer than "John", and "John Doe h" does not match the typed letters.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"John","John Doe","John Doe h"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/MSG jOHN dOE HI THERE"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "John Doe"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Note that "/msg", as well as the user's name is case insensitive.  Also note that the case of the return matches the usernames parameter, not the typed parameter.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"writer"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"writer hi"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "not a whisper"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    This is not a whisper.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"tester"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/msg testerTwo you there"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "user is not logged in"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    There is no one logged in named "testerTwo" or "testerTwo you"
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"lbackstrom"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/msg lbackstrom"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "user is not logged in"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Since, by our definition, a message is only to someone if there is a space following their name, this message is not to lbackstrom.  However, it does start with "/msg ", so we don't return "not a whisper".  Although it may seems rather strange, by the rules we return "user is not logged in".
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"me"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/msg  me hi"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "user is not logged in"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Again note that, by our strict definition of what it means for a message to be to a user, the double space prevents this message from going to the user "me"
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              6)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"abc"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>" /msg abc note the leading space"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "not a whisper"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              7)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"Wow"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/msg Wow "</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Wow"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              8)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"msg"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"/msg"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "not a whisper"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=4325&amp;pm=1147">
+            2002 TopCoder Invitational Round 1 B - Division I, Level One
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":19,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-515.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

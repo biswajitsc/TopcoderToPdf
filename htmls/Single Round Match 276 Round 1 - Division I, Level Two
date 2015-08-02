@@ -1,0 +1,791 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for TestingCar
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               A test driver in a car company tests a new prototype. For each test drive, he is given a list of restrictions, limiting his speed at certain moments in time. The test driver wants to reach as fast a speed as possible. You should write a program which will find the maximal speed he can reach without violating the restrictions.
+              </p>
+              <p>
+               You will be given a String[]
+               <b>
+                restrictions
+               </b>
+               , giving you the restrictions for the test-drive. Each element of
+               <b>
+                restrictions
+               </b>
+               will contain three integers S, T and D separated by single spaces. The restriction becomes active T seconds after the start of the test-drive and stays active for D seconds. While the restriction is active the car can not go faster than S meters per second. If two or more restrictions are applicable at the same time, the restriction with the minimal speed should be taken into account.
+              </p>
+              <p>
+               At the start of the test drive, the car is motionless. Given two ints,
+               <b>
+                duration
+               </b>
+               , the total duration of the test drive in seconds, and
+               <b>
+                acceleration
+               </b>
+               , the maximal possible acceleration of the car in meters per second squared, return the maximal speed allowed by the test-drive restrictions. Please note that
+               <b>
+                acceleration
+               </b>
+               applies both to increasing and decreasing speed (braking).
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 TestingCar
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 maximalSpeed
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], int, int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 double
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 double maximalSpeed(String[] restrictions, int duration, int acceleration)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The car does not have to come to a complete stop at the final moment of the test drive.  It can still be moving.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              For the purposes of the problem you may assume the car has no speed limit at all.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Your return value must have an absolute or relative error less than 1e-9.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               restrictions
+              </b>
+              will contain between 0 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               restrictions
+              </b>
+              will be formatted as "S T D".
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              In each element of
+              <b>
+               restrictions
+              </b>
+              , S, T and D will be separated by single spaces and contain no leading zeroes.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              In each element of
+              <b>
+               restrictions
+              </b>
+              , S will be an integer between 0 and 100, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              In each element of
+              <b>
+               restrictions
+              </b>
+              , T will be an integer between 0 and
+              <b>
+               duration
+              </b>
+              , inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              In each element of
+              <b>
+               restrictions
+              </b>
+              , D will be an integer between 0 and 1000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               duration
+              </b>
+              will be between 1 and 1000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               acceleration
+              </b>
+              will be between 1 and 25, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"30 0 200"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>25</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 30.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The restriction doesn't allow us to go faster than 30 meters per second.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"30 0 200"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>4</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 20.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    We only have enough time to reach 20 meters per second.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"50 0 40", "50 60 50"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>10</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 150.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The car can go above 50 meters per second only between the 40th and 60th second. Accelerating from the 40th to 50th second, and braking from the 50th to 60th allows you to reach 150 meters per second.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"50 30 10", "50 60 50"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>10</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 175.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 0 100", "0 200 100", "0 400 100", "0 600 100", "0 800 100"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>20</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 2000.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 0 100", "0 200 100", "0 400 100", "0 600 100", "0 800 100", "0 1000 100"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>20</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 1000.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              6)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"44 422 129", "45 1 29", "72 290 80", "2 1 331", "76 445 16", 
+"76 204 429", "8 372 737", "21 159 538", "71 266 707", "99 73 933",
+ "38 457 879", "42 24 299", "54 349 882", "6 352 909", "26 419 428",
+ "51 327 311", "10 52 898", "75 10 702", "54 263 762", "75 404 223",
+ "43 383 127", "86 433 521", "58 394 306", "33 379 514", "58 239 973",
+ "89 301 765", "47 235 777", "75 355 190", "52 425 38", "59 140 347",
+ "89 220 810", "47 72 724", "3 398 283", "0 224 266", "88 222 615",
+ "25 149 85", "59 221 838", "14 87 86", "44 227 252", "73 330 936",
+ "71 198 138", "54 186 141", "6 128 454", "5 123 719", "7 442 930",
+ "59 174 505", "37 0 581", "9 198 168", "40 391 692", "49 320 419"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>462</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>13</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 7.5</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=8073&amp;pm=4634">
+            Single Round Match 276 Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":44,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

@@ -1,0 +1,1015 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for EnergyGameOnGrid
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              Little Petya likes computer games a lot.
+He is currently playing the last level of a game.
+The level is a rectangular grid with
+              <b>
+               N
+              </b>
+              rows by
+              <b>
+               M
+              </b>
+              columns of cells.
+The cells have coordinates between (0,0) and (
+              <b>
+               N
+              </b>
+              -1,
+              <b>
+               M
+              </b>
+              -1), inclusive.
+Each cell is either empty or occupied by a wall.
+You will be given the layout of the level.
+(The precise format is specified at the end of this statement.)
+              <br/>
+              <br/>
+              At the beginning of the game Petya's character appears in the cell (
+              <b>
+               r1
+              </b>
+              ,
+              <b>
+               c1
+              </b>
+              ) with
+              <b>
+               E
+              </b>
+              units of energy. His task is to find a sequence of valid actions (described below) that takes his character from the cell (
+              <b>
+               r1
+              </b>
+              ,
+              <b>
+               c1
+              </b>
+              ) to the cell (
+              <b>
+               r2
+              </b>
+              ,
+              <b>
+               c2
+              </b>
+              ).
+              <br/>
+              <br/>
+              The rules for the actions are as follows: In each action, Petya can do one of two things:
+              <ul>
+               <li>
+                If his character's energy is still positive, he can decrease it by 1.
+               </li>
+               <li>
+                He can make the character jump by exactly K cells in one of the four cardinal directions, where K is the character's current energy. The target cell has to be on the board and it has to be free (not a wall). Note that the cells between the current cell and the target cell may contain walls. Also note that jumping does not decrease the character's energy.
+               </li>
+              </ul>
+              <br/>
+              <br/>
+              Petya wins the game if he finds a finite sequence of actions that will bring his character to the desired destination cell.
+              <br/>
+              <br/>
+              You are given the grid in the format described below, Petya's character starting position, ending position and initial level of energy. Determine whether Petya can win the game or not.
+Return "Possible" (without quotes) if Petya can do that and "Impossible" otherwise.
+              <br/>
+              <br/>
+              In order to keep the input size small, the grid should be pseudo-randomly generated. You are given a int[]
+              <b>
+               p
+              </b>
+              . The following pseudocode describes how to obtain the configuration of the grid.
+              <pre>
+64bit_integer x = N + 2 * M + 3 * r1 + 4 * c1 + 5 * r2 + 6 * c2;
+
+for(i = 0; i &lt; N; i++){
+	for(j = 0; j &lt; M; j++){
+		grid[i][j] = Empty;
+	}
+}
+
+for(i = 0; i &lt; length(p); i += 5){
+	for(j = p[i]; j &lt;= p[i + 2]; j++){
+		for(k = p[i + 1]; k &lt;= p[i + 3]; k++){
+			x = (x * 1103515245 + 12345) % (64bit_integer)2147483648;
+			if(x &lt; p[i + 4]){
+				grid[j][k] = Wall;
+			} else {
+				grid[j][k] = Empty;
+			}
+		}
+	}
+}
+
+grid[r1][c1] = Empty;
+grid[r2][c2] = Empty;
+</pre>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 EnergyGameOnGrid
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 isReachable
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 int, int, int[], int, int, int, int, int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String isReachable(int N, int M, int[] p, int r1, int c1, int r2, int c2, int E)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               N
+              </b>
+              and
+              <b>
+               M
+              </b>
+              will be between 1 and 2000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               p
+              </b>
+              will contain between 1 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The number of elements in
+              <b>
+               p
+              </b>
+              will be divisible by 5.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               p
+              </b>
+              [i] will be between 0 and N-1, inclusive for all valid i such that i mod 5 = 0.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               p
+              </b>
+              [i] will be between 0 and M-1, inclusive for all valid i such that i mod 5 = 1.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               p
+              </b>
+              [i] will be between p[i-2] and N-1, inclusive for all valid i such that i mod 5 = 2.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               p
+              </b>
+              [i] will be between p[i-2] and M-1, inclusive for all valid i such that i mod 5 = 3.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               p
+              </b>
+              [i] will be between 0 and 2,147,483,647, inclusive for all valid i such that i mod 5 = 4.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               r1
+              </b>
+              and
+              <b>
+               r2
+              </b>
+              will be between 0 and N-1, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               c1
+              </b>
+              and
+              <b>
+               c2
+              </b>
+              will be between 0 and M-1, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               E
+              </b>
+              will be between 1 and max(
+              <b>
+               N
+              </b>
+              ,
+              <b>
+               M
+              </b>
+              ), inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1,0,1,0,2140000000}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Possible"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    In this case the grid looks like this ('0' stands for empty cells and '1' stands for cells occupied by walls):
+                    <pre>
+00
+10
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,1,1,2147000000}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Impossible"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Here the grid looks like this:
+                    <pre>
+01
+10
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>4</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,3,3,1500000000,2,2,4,3,12857676,0,2,4,3,1500000000}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Possible"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Here is how the grid looks like in this test case:
+                    <pre>
+1001
+1110
+1111
+1010
+0001
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>10</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,0,9,2147000000,0,4,2,9,2147000000,1,0,1,9,2147000001}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>9</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>10</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Impossible"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Here is how the grid looks like in this test case:
+                    <pre>
+0111111111
+1111111111
+0000111110
+</pre>
+                    It's impossible to reach the target cell with any initial amount of energy.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1000,1000,1001,1001,0}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>386</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>111</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1948</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>635</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2000</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Possible"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Here the grid is completely free of walls.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,1999,1999,2147319343,804,426,1187,1358,1501333603,900,774,1543,1815,745495001,334,301,1285,863,1797586332,500,280,1764,343,698919580,
+320,17,906,607,660127261,194,1364,1007,1693,1166180009,446,1365,1403,1465,204638230,197,1283,421,1486,418539195,508,322,1443,1819,1056189843}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1075</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>446</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>364</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1216</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>72</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: "Impossible"</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    In this test case we need at least 73 units of energy to reach the target cell.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=16189&amp;pm=13539">
+            2014 TCO Algorithm Wildcard - Division I, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":22,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

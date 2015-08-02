@@ -1,0 +1,595 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for OptimalPlay
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              We're going to play a very simple game of poker.  As in regular poker, there is a
+              <i>
+               pot
+              </i>
+              , and the winner of the hand wins the money in the pot.  In this game, each of two players will be given a single card, numbered between 0 and
+              <tt>
+               N-1
+              </tt>
+              , inclusive.  The pot initially contains $1, and the size of each bet is also $1.  The player who goes first may either check (put nothing in the pot) or bet (put $1 in the pot).  If the first player checked, the second player may either check or bet.  If he bets the first player must then either fold (concede the pot to the second player) or call (put $1 in).  If, on the other hand, the first player bets, the second player must decide whether to fold or call.  If one player folds, then the other player wins the pot automatically.  If neither player folds, then the player with the higher card wins the pot (ties split the pot).  Thus, there will only be five possible outcomes to the betting:
+              <ul>
+               <li>
+                Player 1 bets, player 2 folds; player 1 wins the pot
+               </li>
+               <li>
+                Player 1 bets, player 2 calls; the player with the higher card wins, a tie results in the pot being evenly divided
+               </li>
+               <li>
+                Player 1 checks, player 2 checks; the player with the higher card wins, a tie results in the pot being evenly divided
+               </li>
+               <li>
+                Player 1 checks, player 2 bets, player 1 folds; player 2 wins the pot
+               </li>
+               <li>
+                Player 1 checks, player 2 bets, player 1 calls; the player with the higher card wins, a tie results in the pot being evenly divided
+               </li>
+              </ul>
+              You will be given a complete description of a probabilistic strategy played by player 1.  You, as player two, want to maximize your expected value, and must play accordingly, given player one's strategy.
+              <br/>
+              <br/>
+              A double[]
+              <b>
+               betProb
+              </b>
+              gives the probability that player one will bet with each of the
+              <tt>
+               N
+              </tt>
+              cards.
+              <b>
+               betProb[i]
+              </b>
+              gives the probability that player one will bet given that his card is
+              <tt>
+               i
+              </tt>
+              .  Similarly,
+              <b>
+               callProb[i]
+              </b>
+              gives the probability that player one will first check, and then call if you bet, given that his card is
+              <tt>
+               i
+              </tt>
+              .  Therefore,
+              <tt>
+               1-
+               <b>
+                betProb[i]
+               </b>
+               -
+               <b>
+                callProb[i]
+               </b>
+              </tt>
+              gives the probability that player one will check and then fold to your bet.
+              <br/>
+              <br/>
+              You should return your expected profit (including the initial $1 in the pot) given that you play optimally (knowing player one's strategy), and that each player's card is assigned independently and uniformly at random.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 OptimalPlay
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 winnings
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 double[], double[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 double
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 double winnings(double[] betProb, double[] callProb)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The players do not know each other's cards.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The call probability is not conditional on not betting.  It gives the joint probability of checking and then calling.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The profit is the amount you get from the pot that you didn't put in.  Thus, if you tie your profit is $0.5, half of the original $1.  If you call a bet and win your profit is $2.  If you call a bet and lose, your profit is -$1.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Your return must have relative or absolute error less than 1E-9.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <tt>
+               N
+              </tt>
+              will be between 2 and 50, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               betProb
+              </b>
+              and
+              <b>
+               callProb
+              </b>
+              will each contain exactly
+              <tt>
+               N
+              </tt>
+              elements between 0 and 1, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The sum of corresponding elements of
+              <b>
+               betProb
+              </b>
+              and
+              <b>
+               callProb
+              </b>
+              will be at most 1.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 1.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    You can win every time -- just bet and your opponent will fold, giving you the initial $1.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1,1,1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,0}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.6666666666666666</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Your opponent bets no matter what.  You should call if your card is a 1 or a 2.  When it is a one, you will lose $1 when your opponent has a 2, win $2 when your opponent has a 0, and win $0.5 when your opponent also has a 1.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0.5,0,1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,1,0}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.5833333333333334</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    We can describe your optimal strategy one card at a time (this is not the unique optimal strategy):
+                    <ul>
+                     <li>
+                      If you have a 0, you should fold to a bet, and check if player one checks.
+                     </li>
+                     <li>
+                      If you have a 1, you should fold to a bet, and check if player one checks.
+                     </li>
+                     <li>
+                      If you have a 2, you should call a bet, and bet if player one checks.
+                     </li>
+                    </ul>
+                    Using this strategy you will win 0.083 when you have card 0, 0.333 when you have card 1, and 1.333 when you have card 2.  Thus 1.75/3=0.583 overall.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=12018&amp;pm=8820">
+            2008 TopCoder Open Wildcard Round - Division I, Level One
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":42,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

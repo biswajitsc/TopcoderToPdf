@@ -1,0 +1,845 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for HeartsGame
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               Hearts is a card game in which each of four players is dealt 13 cards from a standard deck.  Play always starts with the two of clubs.  We'll call the player who starts with the 2 of clubs player 1.  Play continues clockwise from this player, and we'll call the player to the right of player 1 "player 2", and so on.  Once all four players have played one card (this is called a "trick"), the player who played the highest card in the same suit as the first card played sets aside the four cards played and leads the next trick.  At the end of the round (exactly thirteen tricks are played, to exhaust the players' hands), points are counted up for each player.  The object of the game is to have the lowest number of points.  Each heart taken by a player is worth one point, and the Queen of Spades is worth 13 points.  However, if one player gets all of the hearts and the Queen of Spades, rather than getting 26 points, they give each of the other three players 26 points (this is often called "shooting the moon").  Scoring should be counted the same even if the game isn't legit; A player gets the points on the tricks that player takes even if he only took those points as a result of other players cheating.
+              </p>
+              <p>
+               During each trick, the player who has control of the game (because he either took the last trick or he has the 2 of clubs if it's the first trick) plays his leading card, and all other players
+               <i>
+                must
+               </i>
+               play a card of the same suit if they have one.  If they do not have any cards of that suit, they may play any other card in their hand instead.  The leading player may not lead with a heart unless hearts have been "broken", which means that some player has played a heart in a previous trick (including illegally playing a heart), or unless they have only hearts left in their hand.  Also, no scoring cards (hearts or the Queen of Spades) may be played on the first trick, unless that player has no non-scoring cards in his hand.
+              </p>
+              <p>
+               You will be given a String[]
+               <b>
+                tricks
+               </b>
+               , which will have exactly 13 elements, each with exactly 11 characters in the format
+               <tt>
+                &lt;suit1&gt;&lt;card1&gt; &lt;suit2&gt;&lt;card2&gt; &lt;suit3&gt;&lt;card3&gt; &lt;suit4&gt;&lt;card4&gt;
+               </tt>
+               .  The suits will be either 'C' for clubs, 'D' for diamonds, 'S' for spades, or 'H' for hearts.  The cards will be, in ascending order of value, '2', '3', '4', '5', '6', '7', '8', '9', 'T' (for Ten), 'J' (for Jack), 'Q' (for Queen), 'K' (for King), or 'A' (for Ace).  These will represent the four cards played in a specific trick, in the order in which they are played.  You are to return a String[] representing the scores of each player, as integer strings, with no unnecessary leading zeros.  The order should start with player 1, then player 2, and so on (in the order that they played in the first trick).  If a player cheated, however, that player will have the String "CHEATER!" rather than a score.  A player cheated if he had a card of the same suit led in a trick but played a card of a different suit, or if he led with a heart before hearts had been broken and he had another non-heart he could have led with, or if he played a scoring card in the first trick and had a non-scoring card that he could have played.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 HeartsGame
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 score
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] score(String[] tricks)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              "Scoring cards" refer to hearts and the queen of spades.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The highest card
+              <i>
+               of the same suit as the first card
+              </i>
+              takes the trick.  The highest card is the Ace, followed by the King, then the Queen, then the Jack, and then 10 and so on, with the lowest card being the 2.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Note that you are given the cards in the order that they're played, not necessarily in the numerical order of the players.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               tricks
+              </b>
+              will have 13 exactly elements.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               tricks
+              </b>
+              will have exactly 11 characters and will have 4 cards in the format
+              <tt>
+               &lt;suit&gt;&lt;card&gt;
+              </tt>
+              separated by single spaces.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The first card in the first element of
+              <b>
+               tricks
+              </b>
+              will be the 2 of clubs.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each of the 52 valid cards in the deck will appear exactly once in
+              <b>
+               tricks
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 CA DA C9",
+ "S9 S8 S7 S5",
+ "ST S6 S3 S4",
+ "C6 HK C3 CK",
+ "DQ HQ D9 D5",
+ "D3 H7 D4 D2",
+ "D6 SK DJ H8",
+ "H5 H2 H6 H3",
+ "H9 H4 HT CQ",
+ "D8 CJ DT SA",
+ "HJ C7 SQ CT",
+ "HA C5 D7 C8",
+ "S2 SJ DK C4"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "6",  "0",  "20",  "0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    A pretty typical game with no cheating. The players who led each trick were:
+1
+2
+2
+2
+1
+1
+3
+1
+3
+1
+3
+3
+3.
+And player 4 took the last trick.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 D2 S2 H2",
+ "C3 D3 S3 H3",
+ "C4 D4 S4 H4",
+ "C5 D5 S5 H5",
+ "C6 D6 S6 H6",
+ "C7 D7 S7 H7",
+ "C8 D8 S8 H8",
+ "C9 D9 S9 H9",
+ "CT DT ST HT",
+ "CJ DJ SJ HJ",
+ "CQ DQ SQ HQ",
+ "CK DK SK HK",
+ "CA DA SA HA"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "0",  "26",  "26",  "26" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    In this bizarre game, each player got 13 cards of the same suit.  The result is the clubs player shooting the moon.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 C3 CK SA",
+ "DA DK DT D8",
+ "SJ ST S3 SK",
+ "S5 S6 S2 CQ",
+ "C6 DQ CT HK",
+ "H3 H6 H2 H4",
+ "S4 S9 S8 HQ",
+ "C4 HA CJ HT",
+ "C7 HJ C5 H9",
+ "C8 D9 C9 CA",
+ "H5 H7 D7 H8",
+ "D2 D6 D4 D5",
+ "D3 S7 SQ DJ"}
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "CHEATER!",  "4",  "17",  "CHEATER!" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Player 4 turned out to have a club even though he didn't play it in the first trick and player 1 turns out to have a spade that he should have played on the fourth trick.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "C2 C9 CA CT",
+ "D4 D2 D3 DJ",
+ "S9 S2 S7 SA",
+ "C4 C7 D5 CJ",
+ "D6 C6 DK DT",
+ "CK H7 C8 CQ",
+ "HA HJ H8 H6",
+ "ST HK S3 S4",
+ "SK H5 SJ S6",
+ "S8 H9 D8 HQ",
+ "SQ HT DA C3",
+ "C5 D9 H2 H3",
+ "S5 D7 DQ H4" }
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "26",  "0",  "26",  "26" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The second player shoots the moon!
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 CQ HK D7",
+ "H9 H7 HJ H4",
+ "S2 S8 S5 D2",
+ "C9 DA CT CK",
+ "DT C8 D9 D4",
+ "DK S3 H6 C6",
+ "CJ D6 C5 S9",
+ "D8 SA H8 DJ",
+ "S7 S6 ST CA",
+ "HA H5 H3 D5",
+ "DQ C7 SK D3",
+ "HQ H2 SJ C3",
+ "SQ C4 HT S4" }
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "CHEATER!",  "CHEATER!",  "CHEATER!",  "CHEATER!" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Some rampant cheating going on here...
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 CA HA CQ",
+ "C3 HK C9 C5",
+ "ST SJ SA SQ",
+ "C4 HQ C6 CJ",
+ "S9 DA HJ S7",
+ "H2 DT HT SK",
+ "H3 DQ H4 CK",
+ "S4 CT H9 S6",
+ "S5 S3 C8 H8",
+ "D6 D4 D5 D3",
+ "D8 DK D7 H7",
+ "S2 C7 H6 DJ",
+ "S8 D2 H5 D9"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "7",  "14",  "CHEATER!",  "3" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Player 3 holds out for awhile, but it turns out he played a heart on the first trick while he had exactly one non-scoring card.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              6)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 SQ C9 C8",
+ "C6 CA CQ HA",
+ "S4 SJ HK SK",
+ "ST SA S9 HQ",
+ "DA DK D7 DQ",
+ "D2 D4 HJ DJ",
+ "H4 DT H2 H3",
+ "D9 D5 D3 HT",
+ "S5 CK S8 H9",
+ "CJ H8 D8 CT",
+ "C5 H7 D6 C4",
+ "S2 H6 S7 C7",
+ "S6 C3 S3 H5"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "3",  "CHEATER!",  "21",  "2" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    You can't play the Queen of Spades in the first trick, either, if you have a non-scoring card in your hand.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              7)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"C2 CJ C6 DK",
+ "H7 S2 DQ H6",
+ "H2 S6 DJ CK",
+ "H3 S8 D2 S4",
+ "HK ST H5 CA",
+ "H8 SA D3 C7",
+ "DA D4 DT C8",
+ "HQ S9 D8 C4",
+ "HJ S7 D9 CT",
+ "HT SK SQ S5",
+ "H4 SJ D5 C9",
+ "HA S3 D6 C5",
+ "H9 CQ D7 C3"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "26",  "CHEATER!",  "26",  "CHEATER!" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Player 2 cheated to shoot the moon.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5866&amp;pm=3073">
+            Single Round Match 220 Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":41,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

@@ -1,0 +1,1152 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for MetroNetwork
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              You live in a big city and need to travel to work every day using the metro rail network. However, the railway lines aren't 100% reliable and occasionally problems with the track lead to a line having to run much slower than usual. You've been in the city for a while, so you know the approximate probabilities of delays happening on each of the lines. Your task is to develop a strategy that minimizes the expected time to get from your starting point to your destination.
+              <br/>
+              <br/>
+              When setting out on your journey, you have no way of telling which lines are delayed. Fortunately, the rail company posts information about delayed lines at the stations. However, they are not very good at communicating between stations, so each station will only have information posted about the train lines that pass through that particular station. You will therefore find out whether a line is delayed the first time you arrive in a station through which that line passes. Note that you have to be in the station to read the notice, so you don't gain information about delays by passing through a station on a train without disembarking. If a line is delayed, then the amount of time for the trains to run between adjacent stations on that line is increased by an amount
+              <b>
+               delay
+              </b>
+              . Getting on and off trains also takes a certain amount of time. You may assume that the lines which are delayed do not change throughout the course of the entire journey. Trains run in both directions on all lines, with the journey time being the same in both directions, but to change direction, you have to disembark and reboard. Assume that a delay affects trains in both directions.
+              <br/>
+              <br/>
+              Each line is given as the order of stations that the train visits on that line. A line may pass through a station multiple times, but these intersections are not joined. For example, if a train visits stations 0 1 2 3 4 5 2 6 7 in that order and you are at station 0 wishing to get to station 7, you have two options: visit all the stations on the line, or disembark at station 2 and reboard a different train at the later point on the line where it passes through station 2 again. There is no train that visits stations 0 1 2 6 7 without going through stations 3 4 5.
+              <br/>
+              <br/>
+              You will be given a String[]
+              <b>
+               lines
+              </b>
+              , where each element will contain a space-separated list of integers representing the stations that the a single line passes through in order, with the j
+              <sup>
+               th
+              </sup>
+              integer in the i
+              <sup>
+               th
+              </sup>
+              element being the number of the j
+              <sup>
+               th
+              </sup>
+              station on that line. The time that the trains take between each station will be described as a space-separated list of integers in a String[]
+              <b>
+               times
+              </b>
+              . The i
+              <sup>
+               th
+              </sup>
+              element of
+              <b>
+               times
+              </b>
+              describes the i
+              <sup>
+               th
+              </sup>
+              line in
+              <b>
+               lines
+              </b>
+              , with the j
+              <sup>
+               th
+              </sup>
+              integer being the time to travel between the j
+              <sup>
+               th
+              </sup>
+              and j+1
+              <sup>
+               th
+              </sup>
+              stations on the line. The probability of each line being delayed is given as a percentage in
+              <b>
+               probabilities
+              </b>
+              in the same order as
+              <b>
+               lines
+              </b>
+              . The time to catch or disembark a train is
+              <b>
+               changeTime
+              </b>
+              and the additional time to travel between adjacent stations if a line is delayed is
+              <b>
+               delay
+              </b>
+              .
+              <br/>
+              <br/>
+              You should work out the minimum expected journey time to get from station
+              <b>
+               start
+              </b>
+              to station
+              <b>
+               destination
+              </b>
+              and return this time. Return -1.0 if it is not possible to reach station
+              <b>
+               destination
+              </b>
+              from station
+              <b>
+               start
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 MetroNetwork
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 minimizeTime
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 int, int, String[], String[], int[], int, int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 double
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 double minimizeTime(int start, int destination, String[] lines, String[] times, int[] probabilities, int changeTime, int delay)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The return value must be accurate to within an absolute or relative tolerance of 1e-9.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               changeTime
+              </b>
+              includes the time you spend waiting for trains.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              It takes
+              <b>
+               changeTime
+              </b>
+              time to board a train and
+              <b>
+               changeTime
+              </b>
+              time to disembark. For a single journey on a single line, therefore, the cost is 2 *
+              <b>
+               changeTime
+              </b>
+              +
+              <i>
+               journey-time
+              </i>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              If multiple lines pass through a station, you will find out about delays on all of these lines when you are in the station.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               lines
+              </b>
+              will contain between 1 and 8 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               times
+              </b>
+              and
+              <b>
+               probabilities
+              </b>
+              will contain the same number of elements as lines.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               lines
+              </b>
+              and
+              <b>
+               times
+              </b>
+              will contain no more than 50 characters.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               lines
+              </b>
+              will be a space-separated list of integers, without leading zeros, containing at least 2 integers.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each integer in
+              <b>
+               lines
+              </b>
+              will be between 0 and 39, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               times
+              </b>
+              will be a space-separated list of integers, without leading zeros, containing exactly 1 fewer integer than the corresponding element of
+              <b>
+               lines
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each integer in
+              <b>
+               times
+              </b>
+              will be between 1 and 100, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               probabilities
+              </b>
+              will be between 0 and 100, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               changeTime
+              </b>
+              will be between 1 and 100, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               delay
+              </b>
+              will be between 1 and 100, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               start
+              </b>
+              and
+              <b>
+               destination
+              </b>
+              will be distinct and will correspond to stations in
+              <b>
+               lines
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>7</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 1 2 3 4 5 6 7"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"2 2 2 2 2 2 2"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{50}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 41.5</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <img src="http://www.topcoder.com/contest/problem/MetroNetwork/Example0.gif"/>
+                    <br/>
+                    This network is shown topologically in the above diagram. In this diagram and all subsequent ones, station numbers are shown in bold numerals and segment times are shown italicized. When there is a possibility of a line being delayed, this segment time is formatted "
+                    <i>
+                     non-delayed time/delayed time
+                    </i>
+                    ", quotes for clarity.
+                    <br/>
+                    <br/>
+                    Here there is a single line, so no choice as to which route to take. If the line is not delayed then the journey time is
+                    <br/>
+                    <tt>
+                     5 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 5 = 24
+                    </tt>
+                    <br/>
+                    If the line is delayed, the time is
+                    <br/>
+                    <tt>
+                     5 + 7 + 7 + 7 + 7 + 7 + 7 + 7 + 5 = 59
+                    </tt>
+                    <br/>
+                    For a total expected journey time of
+                    <br/>
+                    <tt>
+                     0.5 * 24 + 0.5 * 59 = 41.5
+                    </tt>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 1","0 2","1 3","2 3"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"5","5","5","5"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,50,50}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>20</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 40.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <img src="http://www.topcoder.com/contest/problem/MetroNetwork/Example1.gif"/>
+                    <br/>
+                    This network is shown above. Here you have 2 choices: you can either travel to station 1 on line zero, then change to line 2, or travel to station 2 on line 1 and change to line 3. Lines 0 and 1 are never delayed and lines 2 and 3 are delayed 50% of the time. Since you cannot tell from station 0 which of lines 2 and 3, if either, are delayed, and both of the journey times are otherwise the same, you just pick one of the choices at random.  You will end up having to travel on a delayed line 50% of the time.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 1","0 2","0 1 3","2 3"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"5","5","100 5","5"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,50,50}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>20</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 35.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <img src="http://www.topcoder.com/contest/problem/MetroNetwork/Example2.gif"/>
+                    <br/>
+                    This is the same network as example 1, except line 2 has been extended to station 0 (see diagram). The time to travel on the additional segment is way too long for you to ever bother travelling on it, but it means that line 2 passes through station 0, so you know from the start whether or not it is delayed. The optimal strategy is now to consider whether line 2 is delayed from the start at station 0. If it is, then travel to station 1 on line 0 and then to station 3 on line 2. Otherwise you should take the other route via station 2. This strategy ensures that you will only travel on a delayed line if both lines 2 and 3 are delayed (25% probability), thus leading to a reduction in the expected journey time.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>4</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 1 2 3","1 3 4","2 4"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"10 10 20","100 10","80"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,50,0}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 105.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <img src="http://www.topcoder.com/contest/problem/MetroNetwork/Example3.gif"/>
+                    <br/>
+                    This network is shown above. Here, the optimal strategy is to travel to station 1 on line 0 and get off purely to check whether line 1 is delayed or not. If it is, then travel to station 2 on line 0, then station 4 on line 2. Otherwise travel to station 3 on line 0 and then to station 4 on line 1.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>12</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>9</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 30 1 2 3 4 31 5 6 7",
+"38 6 8 32 9 33 10 34 11 0 12 13 14 15 16 36 5 38",
+"17 39 18 19 5 8 9 20 21",
+"17 39 22 16 23 24 3 25 20 21",
+"28 9 20 25 2 27 14 17",
+"12 13 27 26 24 4 9 28",
+"29 10 1 27 15 22 19",
+"11 10 2 26 23 16 22 18"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"3 3 2 3 2 3 2 2 5",
+"2 1 3 4 3 2 4 2 4 5 1 4 4 2 4 5 4",
+"2 4 4 2 2 6 2 4",
+"2 8 2 1 1 2 3 1 6",
+"6 1 2 2 2 2 6",
+"1 7 1 2 2 4 8",
+"7 2 3 2 2 4",
+"4 4 2 2 1 2 9"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{20,5,15,50,45,5,10,5}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>10</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 23.228506624999994</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 1","2 3"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"2","2"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{50,50}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -1.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    There is no route to the destination here.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              6)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>31</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>8</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"35 38 1 3 4 7 9 10 12 14 16 18 19 20 21 24 25 26"
+,"7 10 11 13 15 16 19 22 23 25 26 27 30 33 35 38 1"
+,"35 38 1 3 5 6 9 11 13 16 17 19 22 25 26 29 30 32"
+,"24 26 28 29 32 34 37 39 1 4 6 8 11 13 16 17 18 19"
+,"13 15 17 20 22 25 26 29 30 32 35 37 0 2 3 6 7 8"
+,"20 22 24 26 29 31 32 33 36 38 0 3 6 8 9 12 13 14"
+,"12 15 16 18 19 21 22 24 25 26 28 30 31 32 33 35"
+,"32 34 37 38 39 0 2 4 7 9 12 15 17 20 22 23 24 27"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"2 4 9 9 4 4 2 9 7 5 8 3 3 6 7 4 1"
+,"1 6 6 8 8 10 7 1 8 10 9 8 9 3 3 2"
+,"2 2 7 9 9 1 9 7 9 6 4 4 1 1 10 2 3"
+,"10 10 6 5 1 9 9 6 10 5 4 7 5 3 1 2 2"
+,"5 1 3 9 2 5 5 6 5 6 3 5 8 8 5 1 6"
+,"4 10 4 1 7 1 9 3 5 3 6 9 2 10 3 9 7"
+,"9 3 6 6 6 3 5 6 10 10 2 2 5 2 6"
+,"1 7 3 6 1 10 2 1 7 4 7 9 7 10 7 3 2"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{81,5,54,32,6,12,80,38}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>4</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>88</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 56.38865447903488</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=10671&amp;pm=7541">
+            Single Round Match 347 Round 1 - Division I, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":40,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

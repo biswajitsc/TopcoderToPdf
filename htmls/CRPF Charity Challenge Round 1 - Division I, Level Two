@@ -1,0 +1,943 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for RoomSummary
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              Given a summary of events occurring during a TopCoder match in a single room, return the room summary for that room.
+The room summary is a list of coders' handles with their point totals, sorted in decreasing order by points. Ties are broken by listing lexicographically lower handles first (according to ASCII values).
+              <br/>
+              The room summary is a String[], where each element is the result of a coder's performance in the format
+              <tt>
+               "&lt;handle&gt; &lt;points&gt;"
+              </tt>
+              (quotes for clarity) where
+              <tt>
+               &lt;handle&gt;
+              </tt>
+              is the coder's handle and
+              <tt>
+               &lt;points&gt;
+              </tt>
+              is the coder's point total (
+              <tt>
+               &lt;points&gt;
+              </tt>
+              must contain exactly 2 decimal places and have no extra leading zeros), eg.
+              <tt>
+               "SnapDragon 1201.30"
+              </tt>
+              <br/>
+              <br/>
+              <i>
+               The Problems
+              </i>
+              <br/>
+              <br/>
+              The name of the three problems are given in the String[]
+              <b>
+               problems
+              </b>
+              .
+              <br/>
+              <br/>
+              <i>
+               The Coders
+              </i>
+              <br/>
+              <br/>
+              The coder's handles are given in the String[]
+              <b>
+               handles
+              </b>
+              .
+              <br/>
+              <br/>
+              <i>
+               I. Coding Phase
+              </i>
+              <br/>
+              <br/>
+              Each event during the Coding Phase is a submission, which is given as an element of the String[]
+              <b>
+               submissions
+              </b>
+              in the following format:
+              <br/>
+              <tt>
+               "&lt;handle&gt; &lt;problem&gt; &lt;points&gt;"
+              </tt>
+              (quotes for clarity), where
+              <ul>
+               <li>
+                <tt>
+                 &lt;handle&gt;
+                </tt>
+                is a coder's handle that corresponds to an element of
+                <b>
+                 handles
+                </b>
+                ,
+               </li>
+               <li>
+                <tt>
+                 &lt;problem&gt;
+                </tt>
+                is a problem's name that corresponds to an element of
+                <b>
+                 problems
+                </b>
+                ,
+               </li>
+               <li>
+                <tt>
+                 &lt;points&gt;
+                </tt>
+                is the points the coder receives for the submission of the respective problem, with exactly 2 decimal places and no extra leading zeros, eg.
+                <tt>
+                 "612.34"
+                </tt>
+                (quotes for clarity).
+               </li>
+              </ul>
+              This means that coder
+              <tt>
+               &lt;handle&gt;
+              </tt>
+              submits problem
+              <tt>
+               &lt;problem&gt;
+              </tt>
+              for
+              <tt>
+               &lt;points&gt;
+              </tt>
+              points.
+If a coder submits a problem more than once (i.e. resubmits), only the last submission made (i.e. the one with the higher index in
+              <b>
+               submissions
+              </b>
+              ) is to be considered.
+Points are between 60.00 and 1000.00, inclusive.
+              <br/>
+              <br/>
+              <i>
+               II. Challenge Phase
+              </i>
+              <br/>
+              <br/>
+              Each event during the Challenge Phase is a challenge, which is given as an element of
+              <b>
+               challenges
+              </b>
+              in the following format:
+              <br/>
+              <tt>
+               "&lt;handle1&gt; &lt;handle2&gt; &lt;problem&gt; &lt;result&gt;"
+              </tt>
+              (quotes for clarity), where
+              <ul>
+               <li>
+                <tt>
+                 &lt;handle1&gt;
+                </tt>
+                is a coder's handle that corresponds to an element of
+                <b>
+                 handles
+                </b>
+                ,
+               </li>
+               <li>
+                <tt>
+                 &lt;handle2&gt;
+                </tt>
+                is a coder's handle that corresponds to a different element of
+                <b>
+                 handles
+                </b>
+                ,
+               </li>
+               <li>
+                <tt>
+                 &lt;problem&gt;
+                </tt>
+                is a problem's name that corresponds to an element of
+                <b>
+                 problems
+                </b>
+                ,
+               </li>
+               <li>
+                <tt>
+                 &lt;result&gt;
+                </tt>
+                is the result of the challenge, either
+                <tt>
+                 "successful"
+                </tt>
+                or
+                <tt>
+                 "unsuccessful"
+                </tt>
+                (quotes for clarity).
+               </li>
+              </ul>
+              This means that coder
+              <tt>
+               &lt;handle1&gt;
+              </tt>
+              challenges problem
+              <tt>
+               &lt;problem&gt;
+              </tt>
+              of coder
+              <tt>
+               &lt;handle2&gt;
+              </tt>
+              with the result
+              <tt>
+               &lt;result&gt;
+              </tt>
+              .
+For a successful challenge,
+              <tt>
+               &lt;handle1&gt;
+              </tt>
+              receives 50 points and
+              <tt>
+               &lt;handle2&gt;
+              </tt>
+              loses all points for his submission of
+              <tt>
+               &lt;problem&gt;
+              </tt>
+              .
+For an unsuccessful challenge,
+              <tt>
+               &lt;handle1&gt;
+              </tt>
+              loses 50 points (possibly getting a negative score). Challenges occur in the order listed in
+              <b>
+               challenges
+              </b>
+              .
+Coders with a non-positive score are still allowed to challenge (unlike in real TopCoder matches).
+              <br/>
+              <br/>
+              <i>
+               III. System Testing Phase
+              </i>
+              <br/>
+              <br/>
+              Each element in
+              <b>
+               failed
+              </b>
+              is a result of the System Testing Phase in the following format:
+              <br/>
+              <tt>
+               "&lt;handle&gt; &lt;problem&gt;"
+              </tt>
+              (quotes for clarity), where
+              <ul>
+               <li>
+                <tt>
+                 &lt;handle&gt;
+                </tt>
+                is a coder's handle that corresponds to an element of
+                <b>
+                 handles
+                </b>
+                ,
+               </li>
+               <li>
+                <tt>
+                 &lt;problem&gt;
+                </tt>
+                is a problem's name that corresponds to an element of
+                <b>
+                 problems
+                </b>
+                .
+               </li>
+              </ul>
+              This means that problem
+              <tt>
+               &lt;problem&gt;
+              </tt>
+              of coder
+              <tt>
+               &lt;handle&gt;
+              </tt>
+              failed the system tests and
+              <tt>
+               &lt;handle&gt;
+              </tt>
+              loses all points for his submission of
+              <tt>
+               &lt;problem&gt;
+              </tt>
+              .
+All submissions that pass the system tests are not listed within
+              <b>
+               failed
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 RoomSummary
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 generate
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], String[], String[], String[], String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] generate(String[] problems, String[] handles, String[] submissions, String[] challenges, String[] failed)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Problem names and coder handles are case sensitive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               problems
+              </b>
+              contains exactly 3 elements.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               problems
+              </b>
+              contains between 1 and 15 alphanumeric characters ('A'-'Z', 'a'-'z', '0'-'9').
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              There are no duplicates within
+              <b>
+               problems
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               handles
+              </b>
+              contains between 1 and 20 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               handles
+              </b>
+              contains between 1 and 10 alphanumeric characters ('A'-'Z', 'a'-'z', '0'-'9').
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              There are no duplicates within
+              <b>
+               handles
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               submissions
+              </b>
+              contains between 0 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               challenges
+              </b>
+              contains between 0 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               failed
+              </b>
+              contains between 0 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              All elements of
+              <b>
+               submissions
+              </b>
+              ,
+              <b>
+               challenges
+              </b>
+              and
+              <b>
+               failed
+              </b>
+              are formatted as described in the problem statement.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Points for submissions are between 60.00 and 1000.00, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              A resubmission results in a lower score than a previous submission or in the minimal possible score of 60.00.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              A coder will not challenge his own problems or another coder's problem that was previously unsuccessfully challenged by him or successfully challenged by somebody else. Only problems that have been submitted will be challenged.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               failed
+              </b>
+              only contains problems that have been submitted and have not been successfully challenged.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "EasyP", "MediumP", "HardP" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Andrea", "Billy", "Chris", "eddy", "David", "Feliza" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Andrea EasyP 220.31",
+  "Billy EasyP 213.24",
+  "Chris EasyP 194.24",
+  "Chris EasyP 75.00",
+  "Andrea MediumP 472.23",
+  "Billy MediumP 428.34",
+  "Andrea HardP 823.60" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Chris Andrea EasyP unsuccessful",
+  "Chris Billy EasyP unsuccessful",
+  "Billy Andrea HardP successful" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Billy MediumP" }</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "Andrea 692.54",
+ "Billy 263.24",
+ "David 0.00",
+ "Feliza 0.00",
+ "eddy 0.00",
+ "Chris -25.00" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Andrea has 1516.14 (220.31 + 472.23 + 823.60) points after the coding phase. She loses 823.60 points during the challenge phase because her submission of HardP was successfully challenged. Her final score is 692.54.
+                    <br/>
+                    Billy has 641.58 (213.24 + 428.34) points after the coding phase. He gains 50.00 points during the challenge phase and loses 428.34 points because his MediumP fails the system tests. His final score is 263.24.
+                    <br/>
+                    Chris receives 75.00 points for his submission of EasyP (which was a resubmission), but loses 100.00 points due to two unsuccessful challenges. His final score is -25.00.
+                    <br/>
+                    David, eddy and Feliza are not involved in any submission or challenge, thus all have a final score of 0.00. They are listed in lexicographical order (lower ASCII values first).
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "EasyP", "MediumP", "HardP" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Andrea", "Billy", "Chris" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Billy EasyP 240.31",
+  "Billy MediumP 425.23",
+  "Chris HardP 831.42",
+  "Andrea EasyP 89.12" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Andrea Billy EasyP unsuccessful",
+  "Andrea Chris HardP unsuccessful" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "Chris 831.42",  "Billy 665.54",  "Andrea -10.88" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "250pointer", "500pointer", "1000pointer" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Andrea", "Billy", "Chrissy", "Chris" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Billy 250pointer 244.32",
+  "Andrea 250pointer 241.42",
+  "Andrea 500pointer 432.39",
+  "Billy 500pointer 372.40",
+  "Billy 250pointer 100.42" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ "Billy Andrea 250pointer unsuccessful",
+  "Andrea Billy 500pointer successful",
+  "Billy Andrea 500pointer unsuccessful" }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "Andrea 723.81",  "Billy 0.42",  "Chris 0.00",  "Chrissy 0.00" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=4656&amp;pm=1935">
+            CRPF Charity Challenge Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":39,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

@@ -1,0 +1,789 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for HierarchicalTree
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               Many systems of information are naturally organized as hierarchical trees.  For example, a computer file system has a hierarchical structure of nested directories, and a textbook could be successively divided into chapters, sections, and subsections.  In a hierarchical tree, the root node has no parent, and all other nodes are descendants of the root with exactly one parent each.  Therefore, even though a node can have any number of children (zero or more), it is possible to describe the structure of a tree by specifying just the parent of each node.
+              </p>
+              <p>
+               You have a list of node-parent relationships and you want to analyze the structure of the hierarchical tree.  All nodes are named with strings of lowercase alphabetical characters, except for the root node which is named ROOT.  Write a class HierarchicalTree with a method countDescendants that takes a String[]
+               <b>
+                parentData
+               </b>
+               containing the nodes and their parents and returns a String[] listing the number of descendants of each node.  If
+               <b>
+                parentData
+               </b>
+               describes a structure that is not a hierarchical tree, return an empty String[].
+              </p>
+              <p>
+               The elements of
+               <b>
+                parentData
+               </b>
+               should be concatenated, in order, onto an initially empty string.  The resulting string will contain pairs of the form NODE,PARENT separated by exactly one space character.  NODE represents the name of a node, and PARENT represents the name of NODE's parent.  A name will either consist of all lowercase English characters ('a' to 'z') or be ROOT.  The elements of the return value should be formatted "NODE: DESCENDANT_COUNT" (quotes are for clarity) with exactly one space character between the colon and the number of descendants, which should contain no extra leading zeroes.  The elements of the return value should be sorted in lexicographical order by NODE.  Since ROOT is capitalized, it should always precede the other nodes in the returned array.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 HierarchicalTree
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 countDescendants
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] countDescendants(String[] parentData)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The ROOT node always exists.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The name of a node uniquely identifies it.  There cannot be multiple nodes with the same name, even if they have different parents.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              A node does
+              <i>
+               not
+              </i>
+              count as its own descendant.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               parentData
+              </b>
+              will contain between 0 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               parentData
+              </b>
+              will contain between 0 and 50 characters, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              When the elements of
+              <b>
+               parentData
+              </b>
+              are concatenated, the resulting string will be a list of name pairs with no leading or trailing spaces.  Members of a pair will be separated by a single comma, and pairs will be separated by a single space.  Names will be lowercase alphabetical English characters ('a' to 'z') or ROOT.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"bin,ROOT tty,dev dev,ROOT passwd,etc etc,ROOT lib",
+",ROOT mnt,ROOT proc,ROOT tmp,ROOT usr,ROOT var,RO",
+"OT libc,lib screens,tmp kernel,usr log,var tty,de",
+"v"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "ROOT: 15",
+ "bin: 0",
+ "dev: 1",
+ "etc: 1",
+ "kernel: 0",
+ "lib: 1",
+ "libc: 0",
+ "log: 0",
+ "mnt: 0",
+ "passwd: 0",
+ "proc: 0",
+ "screens: 0",
+ "tmp: 1",
+ "tty: 0",
+ "usr: 1",
+ "var: 1" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    A node doesn't have to be specified as a child before it is specified as a parent.  Also, redundant specifications may exist (tty,dev appears twice).
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{""}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "ROOT: 0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"disconnectb,disconnecta cyclea,ROOT intermediatea",
+",cyclea cycleb,intermediatea cyclea,cycleb ROOT,r",
+"ootparent"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    There are three things wrong with this tree.  First, disconnecta and disconnectb are not descendants of ROOT.  Second, cyclea has two parents.  Third, rootparent is specified as the parent of ROOT.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"sapiens,homo homo,hominidae hominidae,primates pri",
+"mates,mammalia mammalia,chordata chordata,animalia",
+" animalia,eukarya eukarya,ROOT ",
+"protista,eukarya fungi,eukarya plantae,eukarya ",
+"porifera,animalia cnidaria,animalia platyhelminthe",
+"s,animalia nematoda,animalia mollusca,animalia ann",
+"elida,animalia arthropoda,animalia echinodermata,a",
+"nimalia ",
+"agnatha,chordata chondrichthyes,chordata osteichth",
+"yes,chordata amphibia,chordata reptilia,chordata a",
+"ves,chordata ",
+"artiodactyla,mammalia carnivora,mammalia cetacea,m",
+"ammalia chiroptera,mammalia dermoptera,mammalia hy",
+"racoidea,mammalia insectivora,mammalia lagomorpha,",
+"mammalia macroscelidea,mammalia notoryctemorphia,m",
+"ammalia perissodactyla,mammalia pholidota,mammalia",
+" proboscidea,mammalia rodentia,mammalia scandentia",
+",mammalia sirenia,mammalia tubulidentata,mammalia ",
+"xenarthra,mammalia ",
+"lemuridae,primates cheirogaleidae,primates indrida",
+"e,primates daubentoniidae,primates galagonidae,pri",
+"mates loridae,primates megaladapidae,primates tars",
+"iidae,primates cebidae,primates cercopithecidae,pr",
+"imates callitrichidae,primates hylobatidae,primate",
+"s ",
+"gorilla,hominidae pan,hominidae pongo,hominidae ",
+"domain,ROOT kingdom,domain phylum,kingdom class,ph",
+"ylum order,class family,order genus,family species",
+",genus ninja,mammalia"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "ROOT: 67",
+ "agnatha: 0",
+ "amphibia: 0",
+ "animalia: 54",
+ "annelida: 0",
+ "arthropoda: 0",
+ "artiodactyla: 0",
+ "aves: 0",
+ "callitrichidae: 0",
+ "carnivora: 0",
+ "cebidae: 0",
+ "cercopithecidae: 0",
+ "cetacea: 0",
+ "cheirogaleidae: 0",
+ "chiroptera: 0",
+ "chondrichthyes: 0",
+ "chordata: 45",
+ "class: 4",
+ "cnidaria: 0",
+ "daubentoniidae: 0",
+ "dermoptera: 0",
+ "domain: 7",
+ "echinodermata: 0",
+ "eukarya: 58",
+ "family: 2",
+ "fungi: 0",
+ "galagonidae: 0",
+ "genus: 1",
+ "gorilla: 0",
+ "hominidae: 5",
+ "homo: 1",
+ "hylobatidae: 0",
+ "hyracoidea: 0",
+ "indridae: 0",
+ "insectivora: 0",
+ "kingdom: 6",
+ "lagomorpha: 0",
+ "lemuridae: 0",
+ "loridae: 0",
+ "macroscelidea: 0",
+ "mammalia: 38",
+ "megaladapidae: 0",
+ "mollusca: 0",
+ "nematoda: 0",
+ "ninja: 0",
+ "notoryctemorphia: 0",
+ "order: 3",
+ "osteichthyes: 0",
+ "pan: 0",
+ "perissodactyla: 0",
+ "pholidota: 0",
+ "phylum: 5",
+ "plantae: 0",
+ "platyhelminthes: 0",
+ "pongo: 0",
+ "porifera: 0",
+ "primates: 18",
+ "proboscidea: 0",
+ "protista: 0",
+ "reptilia: 0",
+ "rodentia: 0",
+ "sapiens: 0",
+ "scandentia: 0",
+ "sirenia: 0",
+ "species: 0",
+ "tarsiidae: 0",
+ "tubulidentata: 0",
+ "xenarthra: 0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The phylogeny of living organisms can be represented as a hierarchical tree.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"duke,ROOT arizona,duke maryland,duke michiganst,a",
+"rizona usc,duke stanford,maryland temple,michigan",
+"st illinois,arizona ucla,duke kentucky,usc cincin",
+"nati,stanford georgetown,maryland gonzaga,michiga",
+"nst pennst,temple kansas,illinois mississippi,ari",
+"zona missouri,duke utahst,ucla bostoncollege,usc ",
+"iowa,kentucky stjosephs,stanford kentstate,cincin",
+"nati georgiast,maryland hampton,georgetown fresno",
+"st,michiganst indianast,gonzaga florida,temple no",
+"rthcarolina,pennst charlotte,illinois syracuse,ka",
+"nsas notredame,mississippi butler,arizona monmout",
+"h,duke georgia,missouri ohiost,utahst hofstra,ucl",
+"a oklahomast,usc southernutah,bostoncollege creig",
+"hton,iowa holycross,kentucky ncgreensboro,stanfor",
+"d georgiatech,stjosephs byu,cincinnati indiana,ke",
+"ntstate wisconsin,georgiast georgemason,maryland ",
+"arkansas,georgetown iowast,hampton alabamast,mich",
+"iganst california,fresnost virginia,gonzaga oklah",
+"oma,indianast texas,temple westernky,florida prov",
+"idence,pennst princeton,northcarolina northwester",
+"nst,illinois tennessee,charlotte hawaii,syracuse ",
+"csnorthridge,kansas xavier,notredame iona,mississ",
+"ippi wakeforest,butler easternill,arizona winthro",
+"p,northwesternst"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "ROOT: 65",
+ "alabamast: 0",
+ "arizona: 32",
+ "arkansas: 0",
+ "bostoncollege: 1",
+ "butler: 1",
+ "byu: 0",
+ "california: 0",
+ "charlotte: 1",
+ "cincinnati: 3",
+ "creighton: 0",
+ "csnorthridge: 0",
+ "duke: 64",
+ "easternill: 0",
+ "florida: 1",
+ "fresnost: 1",
+ "georgemason: 0",
+ "georgetown: 3",
+ "georgia: 0",
+ "georgiast: 1",
+ "georgiatech: 0",
+ "gonzaga: 3",
+ "hampton: 1",
+ "hawaii: 0",
+ "hofstra: 0",
+ "holycross: 0",
+ "illinois: 8",
+ "indiana: 0",
+ "indianast: 1",
+ "iona: 0",
+ "iowa: 1",
+ "iowast: 0",
+ "kansas: 3",
+ "kentstate: 1",
+ "kentucky: 3",
+ "maryland: 15",
+ "michiganst: 15",
+ "mississippi: 3",
+ "missouri: 1",
+ "monmouth: 0",
+ "ncgreensboro: 0",
+ "northcarolina: 1",
+ "northwesternst: 1",
+ "notredame: 1",
+ "ohiost: 0",
+ "oklahoma: 0",
+ "oklahomast: 0",
+ "pennst: 3",
+ "princeton: 0",
+ "providence: 0",
+ "southernutah: 0",
+ "stanford: 7",
+ "stjosephs: 1",
+ "syracuse: 1",
+ "temple: 7",
+ "tennessee: 0",
+ "texas: 0",
+ "ucla: 3",
+ "usc: 7",
+ "utahst: 1",
+ "virginia: 0",
+ "wakeforest: 0",
+ "westernky: 0",
+ "winthrop: 0",
+ "wisconsin: 0",
+ "xavier: 0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The results of single-elimination tournaments can also be expressed as hierarchical trees.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5856&amp;pm=2930">
+            Single Round Match 210 Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":63,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

@@ -1,0 +1,847 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for NumberGrid
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               <i>
+                NOTE: This problem statement contains subscripts that may not display properly if viewed outside of the applet.
+               </i>
+              </p>
+              <br/>
+              <p>
+               A
+               <i>
+                number grid
+               </i>
+               is a rectangular matrix where each cell is a digit between 0 and 9, inclusive.
+              </p>
+              <p>
+               Given a number grid G, an
+               <i>
+                encrypted grid
+               </i>
+               E with the same dimensions can be generated using the following procedure (using zero-based indexing):
+              </p>
+              <pre>
+for(i=0;i&lt;rows;++i){
+  for(j=0;j&lt;cols;++j){
+    E<sub>i,j</sub> = 0
+    for(r=0;r&lt;rows;++r){
+      for(c=0;c&lt;cols;++c){
+        if( (r equals i) or (c equals j))
+        {E<sub>i,j</sub> = E<sub>i,j</sub> + G<sub>r,c</sub>}
+      }
+    }
+  }
+}
+</pre>
+              <p>
+               Note that this means each cell in E is the sum of all the cells in G that positionally share the same row or column.  (The cell in G with both the same row and same column is only counted once.)
+              </p>
+              <p>
+               An example number grid G is given below:
+              </p>
+              <pre>
+-------------
+| 0 | 1 | 3 |
+-------------
+| 2 | 5 | 7 |
+-------------
+</pre>
+              Performing the above procedure yields the encrypted grid below:
+              <pre>
+----------------
+| 6  | 9  | 11 |
+----------------
+| 14 | 15 | 17 |
+----------------
+</pre>
+              <p>
+               The cell in row 0, column 1 of E, for example, is calculated by taking the sum of all cells in G with either row 0 or column 1 (0 + 1 + 3 + 5 = 9).  Note that the '1' cell is counted only once.
+              </p>
+              <br/>
+              <p>
+               Given an encrypted grid E, reconstruct the original number grid G if possible.
+              </p>
+              <br/>
+              <p>
+               The encrypted grid is given in three separate String[]s.
+               <b>
+                hundreds
+               </b>
+               gives the digit in the hundreds place of each cell in the encrypted grid,
+               <b>
+                tens
+               </b>
+               gives the digit in the tens place, and
+               <b>
+                ones
+               </b>
+               gives the digit in the ones place.  In each of these String[]s, the j-th character of the i-th element represents the cell in row i, column j.
+              </p>
+              <br/>
+              <p>
+               For example, if the encrypted grid appeared as follows:
+              </p>
+              <pre>
+------------------
+| 106 | 72  | 5  |
+------------------
+| 14  | 135 | 17 |
+------------------
+</pre>
+              <p>
+               The input would appear like this:
+              </p>
+              <br/>
+              <b>
+               hundreds
+              </b>
+              <pre>
+{"100",
+ "010"}
+</pre>
+              <br/>
+              <b>
+               tens
+              </b>
+              <pre>
+{"070",
+ "131"}
+</pre>
+              <br/>
+              <b>
+               ones
+              </b>
+              <pre>
+{"625",
+ "457"}
+</pre>
+              <br/>
+              <p>
+               If there is exactly one valid number grid G that yields the given encrypted grid, return a String[] representing G, where the j-th character of the i-th element is the digit in row i, column j.  If there are no possible number grids, return a String[] containing exactly one element: "NO SOLUTIONS" (quotes for clarity only).  If there are multiple distinct solutions, return a String[] containing exactly one element, formatted as "
+               <i>
+                n
+               </i>
+               SOLUTIONS" (quotes for clarity only), where
+               <i>
+                n
+               </i>
+               is the number of solutions modulo 1000000007 (10^9 + 7), with no extra leading zeroes.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 NumberGrid
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 decrypt
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], String[], String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] decrypt(String[] hundreds, String[] tens, String[] ones)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <p>
+               Two number grids G
+               <sub>
+                1
+               </sub>
+               and G
+               <sub>
+                2
+               </sub>
+               are considered distinct if at least one entry in G
+               <sub>
+                1
+               </sub>
+               is different from the corresponding entry in G
+               <sub>
+                2
+               </sub>
+               .
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               hundreds
+              </b>
+              will contain between 1 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               hundreds
+              </b>
+              will contain between 1 and 50 characters, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               hundreds
+              </b>
+              will have the same number of characters.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               hundreds
+              </b>
+              will contain only digits ('0' - '9').
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               tens
+              </b>
+              and
+              <b>
+               ones
+              </b>
+              will have the same number of elements as
+              <b>
+               hundreds
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               tens
+              </b>
+              and
+              <b>
+               ones
+              </b>
+              will have the same number of characters as each element of
+              <b>
+               hundreds
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               tens
+              </b>
+              and
+              <b>
+               ones
+              </b>
+              will contain only digits ('0' - '9').
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"000",
+ "000"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"001",
+ "111"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"691",
+ "457"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: {"013", "257" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The example given in the problem statement.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"3"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: {"3" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    A single cell means that the solution is equal to the input...
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"4"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"2"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: {"NO SOLUTIONS" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    ...unless the input would not be a valid number grid.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"23333333333322333333333333333333333333333333333332",
+"33333333343333333333333333333333334333333333443333",
+"12222222222211221222222222222222222222222222222221",
+"12222222222211221122222221111221222222112222222221",
+"12222222222211221122222221111221222222112222222221",
+"12222222222211221122222221111221222222112222222221",
+"12222222222211221122222221111221222222112222222221",
+"22222222232222222222222222222222223222222222232222",
+"12222222222222222222222222222222222222222222232221",
+"01111111111100110011111110000110111111001111111110",
+"01111111111100110011111110000110111111001111111110",
+"22222222232222222222222222222222223222222222332222",
+"22222222232222222222222222222222222222222222232222",
+"12222222222222222222222222222222222222222222222221",
+"11111112221111111112221111111111112222111112222211",
+"12221112222211221122222221111221222222112222222221",
+"11111112222211111122221221111221222222111222222221",
+"22222223333322322233332332222332333333222223333322",
+"33333333343333333333333333333333333333333333343333",
+"01111111111100110011111110000110111111001111111110",
+"01111111111100110011111110000110111111001111111110",
+"01111111111100110011111110000110111111001111111110"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"81221116682299220134442330000331447555001226795438",
+"14554449915522553457764553333554770777335559027651",
+"81221116682299229123331330011221336334111226783318",
+"60110004461188118901120119999119225223990115672106",
+"60110004461188118901120119999119225223990115672106",
+"60110004461188118901120119999119225223990115672106",
+"60110004461188118901120119999119225223990115572116",
+"14554448805522552356663663333553660667334558916651",
+"93333337793311331235542331111442558666112337806539",
+"70110005571188118912220229999229226334990115683217",
+"70110005571188118912220229999229226334990115683217",
+"15554449916633663356665663344663660888445659028761",
+"03443338803311431246653452233542558667333338806640",
+"92332227782200220134442331111331337556111236795439",
+"48998883348866896790008996677997993111778992351094",
+"60119994461188018912220119999119115333990114573216",
+"69999994460077997901119008899119114223999003462106",
+"68999994460077096801108008888008004112888993461096",
+"03443338804422552345554553333553559667333448916540",
+"70110005571188118912220229999229226334990115683217",
+"70110005571188118912220229999229226334990115683217",
+"70110005571188118912220229999229226334990115683217"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"86336665563355332604443002299076449111996335231408",
+"64114443341133110482254880077884227229771883012586",
+"38558880015577557152228224411551997996118557489283",
+"94114446671133113748854880077887553552774113045849",
+"94114446671133113748854880077887553552774113045849",
+"94114446671133113748854880077887553552774113045849",
+"94114446671133113748854880077887553552774113345819",
+"16336668893355335930009002222339772774226338567731",
+"72992224459911991593365991188665338007885224190397",
+"16336665563355335937776002299009772441996335234731",
+"16336665563355335937776002299009772441996335234731",
+"83336665560022002937773779966779772118663035231408",
+"49669998829988691560032635522365338774229991897064",
+"05225554485544554826665221188228994330888527453620",
+"83003332263322302604443709966776772118663005231408",
+"94117776671133413715554810077887883229774116342519",
+"20777776674466776048887443300110116552007449675842",
+"08555554452244257126698291188221994663888557456950",
+"97447776674433113048884880077110883552777446345849",
+"16336665563355335937776002299009772441996335234731",
+"16336665563355335937776002299009772441996335234731",
+"16336665563355335937776002299009772441996335234731"}
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{"18888888888888881111111888888811111118888888881111",
+"18888888888888881111188888888881111888881118888811",
+"11111118881111111118881111111881118888111111188881",
+"11111118881111111188811111111111118888111111188881",
+"11111118881111111188811111111111118888111111188881",
+"11111118881111111188811111111111118888111111188881",
+"11111118881111111188811111111111118888111111888811",
+"11111118881111111118888111188881111888881118888111",
+"11111118881111111111188888888111111111888888811111",
+"11111111111111111111111111111111111111111111111111",
+"11111111111111111111111111111111111111111111111111",
+"11888888881111111888881111111118888111111188881111",
+"11111111188811188811188811111188888111111888881111",
+"11111111188811881111111881111881888111118818881111",
+"11111111188811811111111181111111888111111118881111",
+"11118888881111811111111181111111888111111118881111",
+"18881111111111881111111881111111888111111118881111",
+"18881111111111188811188811111888888888118888888881",
+"18888888888811111888881111111888888888118888888881",
+"11111111111111111111111111111111111111111111111111",
+"11111111111111111111111111111111111111111111111111",
+"11111111111111111111111111111111111111111111111111" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=14655&amp;pm=9991">
+            2011 TCO Algorithm Championship Round - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":83,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

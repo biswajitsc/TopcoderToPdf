@@ -1,0 +1,1093 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for RandomChoice
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               We have to make a uniform random decision among
+               <b>
+                k
+               </b>
+               possible outcomes, but all we have available is an
+unfair coin.
+              </p>
+              <p>
+               The coin has a probability p
+               <sub>
+                H
+               </sub>
+               of
+giving Heads and p
+               <sub>
+                T
+               </sub>
+               = 1 - p
+               <sub>
+                H
+               </sub>
+               of giving
+Tails in the first throw. Subsequent throws are
+dependent on the previous throw, and there is a probability
+p
+               <sub>
+                HT
+               </sub>
+               of throwing Tails after a Heads throw and
+p
+               <sub>
+                TH
+               </sub>
+               of throwing Heads after a Tails throw. Note
+that either Heads or Tails always comes out, so the probability
+of throwing Tails after a Tails throw is
+p
+               <sub>
+                TT
+               </sub>
+               = 1 - p
+               <sub>
+                TH
+               </sub>
+               and the probability of throwing
+Heads after a Heads throw is p
+               <sub>
+                HH
+               </sub>
+               = 1 - p
+               <sub>
+                HT
+               </sub>
+               .
+              </p>
+              <p>
+               In order to make a fair decision, we throw the coin
+               <b>
+                n
+               </b>
+               times. If there are
+               <b>
+                k
+               </b>
+               coin result sequences
+that are equally probable (independent of p
+               <sub>
+                H
+               </sub>
+               , p
+               <sub>
+                HT
+               </sub>
+               and
+p
+               <sub>
+                TH
+               </sub>
+               ), we can map each of these sequences to one
+of the
+               <b>
+                k
+               </b>
+               original decision outcomes. We repeat this
+with further coin result sequences, mapping as many of them
+as possible to the
+               <b>
+                k
+               </b>
+               original decision outcomes. At
+the end, some of the coin result sequences may remain unmapped.
+After we throw the coin
+               <b>
+                n
+               </b>
+               times, either one of the
+mapped sequences will come out, in which case we can
+directly make the fair decision by choosing the mapped
+outcome, or one of the unmapped sequences will come out,
+in which case we still cannot make a fair decision
+(we could then repeat making
+               <b>
+                n
+               </b>
+               further throws, until
+one of the mapped sequences comes out).
+              </p>
+              <p>
+               For example, let's say
+               <b>
+                k
+               </b>
+               = 3, and
+               <b>
+                n
+               </b>
+               = 6 (we
+have to choose among three outcomes, and throw the coin 6 times).
+In this case, the sequences "HTHHHH", "HHTHHH",
+"HHHTHH" and "HHHHTH" are equally probable
+(the given strings show the outcome of the 6 coin throws in order,
+with H representing Heads and T representing Tails; each of these
+sequences has a probability of p
+               <sub>
+                H
+               </sub>
+               * p
+               <sub>
+                HH
+               </sub>
+               * p
+               <sub>
+                HH
+               </sub>
+               * p
+               <sub>
+                HT
+               </sub>
+               * p
+               <sub>
+                TH
+               </sub>
+               ). So we can map three of these sequences
+to the three outcomes, and one sequence will remain unmapped. Similarly,
+we can map the sequences "HTTHHH", "HHTTHH" and
+"HHHTTH" to the three outcomes. We get similarly six further mappings
+if we exchange "H" and "T" in these sequences.
+It turns out that these are the only mappings that we can find
+in this case, meaning that we have mapped 12 of the 2
+               <sup>
+                6
+               </sup>
+               =64
+possible sequences, with 52 sequences remaining unmapped.
+Note also that sequences that remain unmapped in
+one mapping step can still be used in further steps - i.e., if in the example above
+               <b>
+                k
+               </b>
+               was 2 instead of 3, and we mapped 2 of the first 4 mentioned sequences above to the 2 outcomes, the remaining 2 would also get mapped, since they still have the same probability. In general, if we have m equally probable outcomes,
+m % k of them will remain unmapped, while the other
+m - (m % k) outcomes will get mapped to some of the
+original decisions.
+              </p>
+              <p>
+               You will be given
+               <b>
+                k
+               </b>
+               , the number of outcomes in the decision
+you have to make,
+               <b>
+                n
+               </b>
+               , the number of coin throws you perform,
+and
+               <b>
+                pH
+               </b>
+               ,
+               <b>
+                pHT
+               </b>
+               and
+               <b>
+                pTH
+               </b>
+               , the initial and
+subsequent conditional probabilities of the coin outcome (p
+               <sub>
+                H
+               </sub>
+               ,
+p
+               <sub>
+                HT
+               </sub>
+               and p
+               <sub>
+                TH
+               </sub>
+               from the above description, respectively).
+You are to return the probability that the
+               <b>
+                n
+               </b>
+               throws will be sufficient to make a decision - i.e., the probability that
+we will get one of the outcomes that we have mapped to one of the original
+decision outcomes.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 RandomChoice
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 decisionProbability
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 int, int, double, double, double
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 double
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 double decisionProbability(int k, int n, double pH, double pHT, double pTH)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              When checking if two coin result sequences are equally probable, we don't take the given probabilities into account - i.e. the person performing the described procedure does not have any information about the probabilities. The probabilities are given in the method input since they are needed to compute the return value - i.e., after having decided which sequences are still unmapped, to compute the probability of one of these sequences coming up.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Your return value must have an absolute or relative error less than 1e-9.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               k
+              </b>
+              will be between 2 and 1000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               n
+              </b>
+              will be between 1 and 1000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               pH
+              </b>
+              will be between 0.01 and 0.99, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               pHT
+              </b>
+              will be between 0.01 and 0.99, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               pTH
+              </b>
+              will be between 0.01 and 0.99, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>4</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.25</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <p>
+                     With
+                     <b>
+                      n
+                     </b>
+                     =4 we can get the following outcomes, each with the given probability:
+                    </p>
+                    <pre>
+HHHH  (pH * pHH * pHH * pHH)    THHH  (pT * pTH * pHH * pHH)
+HHHT  (pH * pHH * pHH * pHT)    THHT  (pT * pTH * pHH * pHT)
+HHTH  (pH * pHH * pHT * pTH)    THTH  (pT * pTH * pHT * pTH)
+HHTT  (pH * pHH * pHT * pTT)    THTT  (pT * pTH * pHT * pTT)
+HTHH  (pH * pHT * pTH * pHH)    TTHH  (pT * pTT * pTH * pHH)
+HTHT  (pH * pHT * pTH * pHT)    TTHT  (pT * pTT * pTH * pHT)
+HTTH  (pH * pHT * pTT * pTH)    TTTH  (pT * pTT * pTT * pTH)
+HTTT  (pH * pHT * pTT * pTT)    TTTT  (pT * pTT * pTT * pTT)
+</pre>
+                    <p>
+                     The outcomes HHTH and HTHH are equally probable (independent of how the
+individual probabilities pH, pHT, pTH are chosen), so they can be mapped to
+the
+                     <b>
+                      k
+                     </b>
+                     =2 original outcomes. The same is true for the outcomes
+TTHT and THTT. The rest remains unmapped (there is no other pair with
+equal probabilities). To compute the return value, we now insert the
+given values for pH, pHT, pTH, and add the probabilities for the
+mapped outcomes (4 mapped outcomes, each with probability 0.5
+                     <sup>
+                      4
+                     </sup>
+                     ,
+which gives the result 0.25).
+                    </p>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>4</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.8</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.6</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.3648</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The same as the previous examples, but with different probabilities.
+The final result is now:
+2 * p
+                    <sub>
+                     H
+                    </sub>
+                    * p
+                    <sub>
+                     HH
+                    </sub>
+                    * p
+                    <sub>
+                     HT
+                    </sub>
+                    * p
+                    <sub>
+                     TH
+                    </sub>
+                    + 2 * p
+                    <sub>
+                     T
+                    </sub>
+                    * p
+                    <sub>
+                     TT
+                    </sub>
+                    * p
+                    <sub>
+                     TH
+                    </sub>
+                    * p
+                    <sub>
+                     HT
+                    </sub>
+                    = 2 * 0.1 * (1.0 - 0.8) * 0.8 * 0.6 + 2 * (1.0 - 0.1) * (1.0 - 0.6) * 0.6 * 0.8
+= 0.3648.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>6</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.625</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <p>
+                     With
+                     <b>
+                      n
+                     </b>
+                     =6, we get the following equally probable outcome n-tuples:
+                    </p>
+                    <pre>
+ 1: (HHHHTH, HHHTHH, HHTHHH, HTHHHH)
+ 2: (HHTHTT, HHTTHT, HTHHTT, HTTHHT)
+ 3: (TTTTHT, TTTHTT, TTHTTT, THTTTT)
+ 4: (TTHTHH, TTHHTH, THTTHH, THHTTH)
+ 5: (HHHTHT, HHTHHT, HTHHHT)
+ 6: (HHHTTH, HHTTHH, HTTHHH)
+ 7: (HHTHTH, HTHHTH, HTHTHH)
+ 8: (HTHTTT, HTTHTT, HTTTHT)
+ 9: (TTTHTH, TTHTTH, THTTTH)
+10: (TTTHHT, TTHHTT, THHTTT)
+11: (TTHTHT, THTTHT, THTHTT)
+12: (THTHHH, THHTHH, THHHTH)
+13: (HHTTTH, HTTTHH)
+14: (HTHTTH, HTTHTH)
+15: (TTHHHT, THHHTT)
+16: (THTHHT, THHTHT)
+</pre>
+                    <p>
+                     Since here
+                     <b>
+                      k
+                     </b>
+                     =2, we can map all outcomes in all quadruples
+(1 - 4) and all pairs (13 - 16) and from each triple (5 - 12) we
+map a pair and leave one element unmapped. So in total we have mapped
+40 outcomes. Since we have
+                     <b>
+                      pH
+                     </b>
+                     =
+                     <b>
+                      pHT
+                     </b>
+                     =
+                     <b>
+                      pTH
+                     </b>
+                     =0.5, the
+probability of each outcome is 0.5
+                     <sup>
+                      6
+                     </sup>
+                     , and the final result
+is 40 * 0.5
+                     <sup>
+                      6
+                     </sup>
+                     = 0.625.
+                    </p>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>6</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.5625</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    <p>
+                     The same example as the last one, but now with
+                     <b>
+                      k
+                     </b>
+                     =3. Now
+we can map all triples (5 - 12 from the previous example) to
+the
+                     <b>
+                      k
+                     </b>
+                     =3 outcomes and 3 elements from each quadruple
+(1 - 4), for a total of 36 mapped outcomes, giving
+36 * 0.5
+                     <sup>
+                      6
+                     </sup>
+                     = 0.5625.
+                    </p>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.0</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    With just one throw we can never be sure to make a fair decision.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>1000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1000</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.5</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.01</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0.01</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 0.9972747235292863</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Be sure not to timeout.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=8092&amp;pm=4819">
+            2005 TCO Semifinal Room 2 - Division I, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":37,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

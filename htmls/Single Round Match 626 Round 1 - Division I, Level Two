@@ -1,0 +1,777 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for NegativeGraphDiv1
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               Nancy has a directed graph with
+               <b>
+                N
+               </b>
+               vertices and E edges.
+The vertices are numbered 1 through
+               <b>
+                N
+               </b>
+               .
+Each edge of the graph has a positive integer weight.
+This graph is described by three int[]s with E elements each:
+               <b>
+                from
+               </b>
+               ,
+               <b>
+                to
+               </b>
+               , and
+               <b>
+                weight
+               </b>
+               .
+For each valid i, the graph contains an edge from
+               <b>
+                from
+               </b>
+               [i] to
+               <b>
+                to
+               </b>
+               [i], and its weight is
+               <b>
+                weight
+               </b>
+               [i].
+Note that Nancy's graph may contain multiple edges with the same start and end.
+It may also contain self-loops.
+              </p>
+              <p>
+               Nancy is currently standing in the vertex 1.
+She can reach other vertices by moving along the edges.
+The cost of using an edge is equal to its weight.
+Nancy's goal is to reach the vertex
+               <b>
+                N
+               </b>
+               and to minimize the total cost of doing so.
+              </p>
+              <p>
+               Nancy has a special power she can use to make her travels cheaper.
+Whenever she traverses an edge, she can use that special power to make the weight of that edge temporarily negative.
+You are given an int
+               <b>
+                charges
+               </b>
+               : the number of times Nancy can use her special power.
+Each use of the special power only works for one traversal of an edge.
+Nancy can traverse each edge arbitrarily many times.
+Each time she traverses an edge, she may use her special power, if she still has some charges left.
+              </p>
+              <p>
+               Compute and return the minimal total cost of Nancy's journey.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 NegativeGraphDiv1
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 findMin
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 int, int[], int[], int[], int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 long
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 long findMin(int N, int[] from, int[] to, int[] weight, int charges)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               N
+              </b>
+              will be between 1 and 50, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              E will be between 1 and 2500, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               from, to, weight
+              </b>
+              will each contain exactly E elements.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               from
+              </b>
+              and
+              <b>
+               to
+              </b>
+              will only contain numbers between 1 and
+              <b>
+               N
+              </b>
+              , inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              There will be a path from node 1 to node
+              <b>
+               N
+              </b>
+              .
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               weight
+              </b>
+              will contain numbers between 0 and 100,000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               charges
+              </b>
+              will be between 0 and 1,000,000,000, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1,1,2,2,3,3}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{2,3,1,3,1,2}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1,5,1,10,1,1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -9</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The optimal path for Nancy is 1-&gt;2-&gt;3, and using her single charge on the last edge.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{100}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100000</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -10000000</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The graph may contain self-loops.
+Here, the optimal solution is that Nancy uses the self-loop 100,000 times, each time using her special power to change its cost from 100 to -100.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1,1,2}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{2,2,1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{6,1,4}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -9</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    There can be multiple edges between vertices.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{1}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{2}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{98765}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1000000000</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -98765</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Nancy may not be able to use all her charges.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>40</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{21,2,36,21,32,1,34,1,40,38,19,10,39,40,31,29,22,18,24,8,25,1,12,31,1,34,16,13,39,39,26,30,4,28,8,9,27,13,6,16,7,11,7,38,30,20,22,29,19,5,22,13,12,7,
+33,5,10,31,10,39,18,18,3,19,17,17,34,9,7,17,21,13,12,16,36,39,9,7,3,5,26,16,32,4,26,12,27,24,19,1,19,17,9,22,16,12,31,37,32,9,31,8,2,39,18,26,32,12,
+28,11,32,34,2,12,12,33,27,24,5,5,40,34,4,8,10,17,39,30,26,24,10,37,23,40,38,17,4,28,33,31,28,19,36,5,24,17,11,19,4,40,20,16,11,10,9,22,23,23,8,30,10,
+23,16,21,10,18,8,28,15,20,38,5,22,4,29,32,13,13,15,24,28,27,11,24,24,23,40,34,20,28,18,26,34,21,13,11,33,28,8,5,9,31,1,32,7,22,12,8,12,8,12,31,35,33,
+27,18,6,22,38,9,40,35,15,16,30,4,3,29,2,34,40,3,12,20,29,14,2,3,8,37,12,28,25,7,22,33,4,15,5,14,26,22,16,33,12,11,14,11,5,25,30,21,20,30,25,30,28,37,
+23,31,30,3,15,5,25,14,8,13,12,4,18,9,20,17,11,21,5,25,15,9,40,26,28,36,1,10,33,34,5,3,21,32,15,30,33,32,31,19,12,2,16,13,15,4,33,33,26,6,7,36,20,14,7,
+39,17,33,4,5,22,21,13,29,38,34,6,24,18,29,4,20,33,16,14,30,20,20,7,21,13,5,20,1,8,18,9,12,24,10,22,33,40,28,30,23,7,36,27,38,36,15,3,36,8,20,27,12,5,
+33,40,7,25,20,13,36,30,13,9,3,15,38,33,27,36,4,9,18,39,7,12,30,17,2,21,17,11,26,14,29,26,31,15,13,12,19,35,11,25,19,15,34,9,12,17,37,22,22,16,10,13,
+17,12,12,32,1,40,10,34,29,39,7,17,3}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{27,37,32,14,19,25,4,14,40,9,36,23,21,25,39,13,4,30,11,32,22,12,29,40,35,32,4,15,25,8,17,18,17,19,34,1,16,16,26,28,2,28,21,16,6,3,12,39,24,31,3,25,26,
+30,9,35,29,20,4,21,25,15,32,27,24,13,3,10,21,40,12,39,4,10,2,39,28,23,21,19,21,11,32,20,36,7,11,21,16,29,17,24,18,32,17,38,23,35,1,19,28,20,31,37,16,
+20,7,31,3,7,36,15,36,10,6,37,26,39,39,26,31,8,36,26,10,21,24,33,13,29,31,10,12,20,31,39,35,29,39,30,34,26,15,30,4,36,16,38,2,31,22,18,17,12,21,4,11,
+32,3,27,14,22,16,37,40,18,25,28,20,27,27,30,11,19,16,18,25,4,21,14,14,13,22,34,25,9,31,27,14,32,23,21,3,1,24,15,30,35,1,24,37,7,28,8,21,40,6,29,36,37,
+21,8,17,20,20,28,22,22,13,29,34,20,26,11,10,8,33,10,37,11,16,5,9,18,39,1,8,4,5,2,20,30,4,23,30,23,19,25,30,37,40,31,31,33,33,8,36,40,15,11,31,37,5,40,
+2,11,19,32,1,32,27,7,23,9,13,18,12,36,11,32,34,38,35,15,6,36,32,28,6,40,2,33,2,6,7,27,40,30,40,12,39,13,1,22,17,36,1,4,34,25,25,6,20,25,30,4,24,35,7,5,
+29,20,28,37,1,30,6,5,5,1,10,40,13,14,21,32,19,25,37,21,28,34,28,29,27,24,33,35,12,25,3,4,12,31,12,7,28,27,10,35,35,18,6,5,16,24,39,26,15,29,13,5,14,36,
+35,14,2,39,22,21,2,2,19,38,15,25,10,13,2,39,31,13,5,39,11,33,4,18,18,38,19,39,39,32,23,34,30,21,30,16,36,22,25,14,13,16,10,8,27,29,40,1,29,4,20,25,32,
+21,40,1,10,2,17,5,8,5,31,18,18,25,13,3}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{93486,55539,34680,56705,10415,99106,26365,51838,20794,93178,33943,80260,60780,2405,78346,71929,24723,37614,62649,83486,32073,83866,88345,83213,28266,
+12730,27623,25353,89948,55002,36720,87151,39759,66091,3690,83881,82635,69084,54138,65876,54205,10236,90478,37230,22337,8209,14258,18375,5268,21824,
+76819,4094,63971,1454,21318,44848,92540,26354,18611,2394,68363,64345,60985,725,33692,21195,60992,10243,62006,74884,7822,66830,16114,14663,60701,38174,
+30493,26360,7745,7165,47668,83884,89463,46615,7729,22187,78818,10817,31141,79159,24280,67585,48039,3000,98743,39455,12030,27595,55470,14617,93275,
+21233,72418,26911,74250,13704,68327,89871,72035,3437,97910,2325,83391,39732,79248,22431,93095,65547,74205,33341,2112,93431,32198,96772,20187,71348,
+19102,10840,27306,76027,86368,55373,40192,49370,90597,21685,23630,68099,50880,84474,61907,8446,30127,80977,53007,36125,47411,16950,7445,17166,71035,
+20293,24724,7404,6579,11282,83421,37466,80598,53398,15720,66117,28965,90631,44004,27582,29003,65915,35683,48237,66625,50977,82957,54602,3610,431,36560,
+38034,5948,72313,16772,81862,11871,33534,91097,93908,57721,91890,46009,21400,41257,66253,90004,56285,85267,23486,6953,66722,69568,74398,32371,15307,
+26503,31676,50683,46103,43963,90273,8938,41054,90794,95115,11689,61662,72089,12258,2816,4029,36441,17784,53116,4444,93653,63726,57293,38647,59684,
+72212,770,60745,25817,47807,85312,27451,51063,83640,2978,49906,744,69457,20244,8799,7,89118,78421,58827,38689,21327,32558,35756,53505,30526,39049,
+63417,24967,54923,62001,38920,59719,65486,174,52231,84176,83531,39896,70918,52397,5169,14876,92511,70020,88390,1168,35311,56953,12966,94805,3885,
+14103,24615,10710,27635,24064,23022,4506,29939,2044,48330,53688,41320,21646,62598,41367,22910,70284,11512,64411,16215,41072,87263,38301,81731,41930,
+96029,93359,32457,98487,62899,51282,8656,45002,83345,36991,77420,37086,53484,18823,74711,81453,81394,79933,38466,61198,98665,5528,9196,40298,55089,
+24162,99257,58066,90088,66809,53472,73237,31964,4792,42336,88141,80467,96893,44276,76106,79430,17072,85727,49790,84394,47215,16792,44544,75123,4203,
+6283,49250,54852,27312,42709,97204,16834,80593,27523,31700,44435,25338,43513,84894,43514,90145,74675,54302,85249,10281,44231,28994,63813,24198,24686,
+7082,46471,3025,57872,57510,13666,48726,3907,12500,53578,28346,15804,32122,89396,15406,11207,59571,78192,84950,84280,84597,27811,56165,69239,53400,
+32562,95679,32377,5909,29805,85810,31593,85985,27637,24974,41557,56442,48912,62362,98580,59154,78739,75721,72097,90622,91334,79685,19371,15487,67804,
+2582,26623,14347,98894,92041,83228,58089,96181,3913,75974,18569,11428,95165,27563}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>160743953</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -15328623718914</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=15859&amp;pm=13218">
+            Single Round Match 626 Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":160,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

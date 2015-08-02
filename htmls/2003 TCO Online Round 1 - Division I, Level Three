@@ -1,0 +1,893 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for Planets
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               The motion of planets is relatively simple to simulate using computers.  Newton's laws of gravity allow us to model this motion, so long as we know the masses, initial positions, and initial velocities of all the planets involved.
+              </p>
+              There are four basic laws of physics that you need to perform this simulation.  In all of these laws, force, acceleration, and velocity are three-dimensional vectors, meaning they have x, y and z components.
+              <br/>
+              The first law is
+              <tt>
+               F = ma
+              </tt>
+              where
+              <tt>
+               F
+              </tt>
+              stands for force,
+              <tt>
+               m
+              </tt>
+              stands for mass, and
+              <tt>
+               a
+              </tt>
+              stands for acceleration.
+              <br/>
+              The second law is
+              <tt>
+               F = (G*m
+               <sub>
+                1
+               </sub>
+               *m
+               <sub>
+                2
+               </sub>
+               )/(d^2)
+              </tt>
+              , where
+              <tt>
+               F
+              </tt>
+              again stands for force, m
+              <sub>
+               1
+              </sub>
+              and m
+              <sub>
+               2
+              </sub>
+              stand for the masses of some
+              <tt>
+               object 1
+              </tt>
+              and
+              <tt>
+               object 2
+              </tt>
+              ,
+              <tt>
+               d
+              </tt>
+              stands for the distance between
+              <tt>
+               object 1
+              </tt>
+              and
+              <tt>
+               object 2
+              </tt>
+              , and
+              <tt>
+               G
+              </tt>
+              is a numerical constant.
+              <br/>
+              Third is
+              <tt>
+               pos
+               <sub>
+                f
+               </sub>
+               = pos
+               <sub>
+                i
+               </sub>
+               + v*t
+              </tt>
+              where
+              <tt>
+               pos
+               <sub>
+                i
+               </sub>
+              </tt>
+              is the initial position,
+              <tt>
+               pos
+               <sub>
+                f
+               </sub>
+              </tt>
+              is the final position,
+              <tt>
+               v
+              </tt>
+              is the velocity, and
+              <tt>
+               t
+              </tt>
+              is the time.
+              <br/>
+              Lastly,
+              <tt>
+               v
+               <sub>
+                f
+               </sub>
+               = v
+               <sub>
+                i
+               </sub>
+               + at
+              </tt>
+              , where v
+              <sub>
+               f
+              </sub>
+              is the final velocity, v
+              <sub>
+               i
+              </sub>
+              is the initial velocity,
+              <tt>
+               a
+              </tt>
+              stands for acceleration, and
+              <tt>
+               t
+              </tt>
+              stands for the time that the objects are accelerating.
+              <br/>
+              <br/>
+              So, if there are a number of planets, there is some force between each pair of planets, as defined by the second law.  The direction of the force between two planets is always in the direction from one planet to the other.  The total force on a planet is thus the vector sum of all of the individual forces on the planet.  Note that the vector sum takes the directions of the forces into account.  From this, we can use the first law given to find the acceleration of each planet (acceleration is always in the same direction as the force).  Then, by using some small time interval, we can repeatedly move each planet and adjust its velocity.  Thus, the algorithm to model the motion of planets for one time interval
+              <tt>
+               t
+              </tt>
+              is:
+              <pre>
+	foreach (planet p){
+		F = vector sum over all p'!=p of ( G*m[p]*m[p']/(dist(p,p')^2) )
+		v[p] = v[p] + F/m[p] * t;
+	}
+	foreach (planet p){
+		pos[p] = pos[p] + v[p]*t;
+	}
+</pre>
+              In other words, for each planet, we first compute and apply its change in velocity based on the locations of the other planets, and then we move the planet based on the new velocity.
+              <br/>
+              <br/>
+              In this problem, we will be using a constant of
+              <tt>
+               G = 6.673*(10^-11)
+              </tt>
+              , and
+              <tt>
+               t = 3600
+              </tt>
+              (this represents one hour).
+              <br/>
+              <br/>
+              You will be given a String[],
+              <b>
+               planets
+              </b>
+              , each of whose elements represents a planet.  Each element of
+              <b>
+               planets
+              </b>
+              will be formatted as "&lt;x position&gt; &lt;y position&gt; &lt;z position&gt; &lt;x velocity&gt; &lt;y velocity&gt; &lt;z velocity&gt; &lt;mass&gt;".  You will also be given an int,
+              <b>
+               time
+              </b>
+              , representing how many times to move the planets.  You are to return a String[] each of whose elements represents the location of a planet (in the same order they are given to you), and is formatted as "&lt;x position&gt; &lt;y position&gt; &lt;z position&gt;".
+              <br/>
+              <br/>
+              Each &lt;position&gt; in the return should be in scientific notation, formatted as "D.DDDEN" or "-D.DDDEN", where each 'D' represents a digit, 'E' is just a single letter, and 'N' is the appropriate exponent with no extra leading zeros ('N' should never be less than zero, so 0.002 should be formatted as 0.002E0, not 2.000E-3).  The final (fourth) 'D' should be rounded (.5 rounds up).  For example, 12435000 would be formatted as "1.244E7", while 12434999 would be formatted as "1.243E7" and -1.0625 would be formatted as "-1.062E0"
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 Planets
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 locations
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] locations(String[] planets, int time)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Planets should be treated as points, and we will not worry about the possibility of collisions.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Be careful not to return "-0.000E0".  If the actual number is -0.000000001, you should return "0.000E0".
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              All calculations should be done using the 64 bit double type.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of planets will be formatted as "&lt;x position&gt; &lt;y position&gt; &lt;z position&gt; &lt;x velocity&gt; &lt;y velocity&gt; &lt;z velocity&gt; &lt;mass&gt;", where each term is a real valued number.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each real number will be a &lt;real&gt; conforming to the following grammar:
+              <ul>
+               <li>
+                &lt;real&gt; ::= (-)&lt;num&gt; | (-)&lt;num&gt;&lt;exponent&gt;
+               </li>
+               <li>
+                &lt;num&gt; ::= &lt;digits&gt; | &lt;digits&gt;.&lt;digits&gt; | .&lt;digits&gt;
+               </li>
+               <li>
+                &lt;exponent&gt; ::= E&lt;digits&gt;
+               </li>
+               <li>
+                &lt;digits&gt; ::= a sequence of 1 or more digits ('0'-'9')
+               </li>
+              </ul>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               time
+              </b>
+              will be between 1 and 100, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               planets
+              </b>
+              will contain between 2 and 5 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element of
+              <b>
+               planets
+              </b>
+              will contain between 13 and 50 characters, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each &lt;position&gt; will be between -1E100 and 1E100.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each &lt;velocity&gt; will be between -1E20 and 1E20.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each &lt;mass&gt; will be between 1 and 1E50, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              To prevent rounding errors, the formatted result will not be affected by relative or absolute errors up to 1e-6.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              No two planets will ever be within 1000 units of each other during any time step.  However, this does not mean that two planets may not
+              <i>
+               jump
+              </i>
+              through each other (see example 2).
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              To further ensure that there are no rounding errors, the result obtained using doubles will match the result using very precise calculations (using the BigDecimal class in Java).
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 0 0 0 0 0 1.98892E30","1.496E11 0 0 0 29785.391801 0 5.972E24"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "1.165E3 2.756E1 0.000E0",  "1.492E11 1.071E10 0.000E0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The first planet here represents our sun, which moves relatively little, due to its high mass.  The second planet represents the Earth.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 0 -.00000001 0 0 0 1.98892E30","1.496E11 0 0 0 29785.391801 0 5.972E24"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "0.231E0 0.000E0 0.000E0",  "1.496E11 1.072E8 0.000E0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    This is pretty much the same as above, except it is only 1 hour.  Also, note that the sun has been shifted a little bit in the z direction.  Be careful that the third term of the first element of your return is "0.000E0", not "-0.000E0"
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 000E0000 .0000 0 0 0 1.98892E30","1.496E8 0 0 0 0 0 5.972E24"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>1</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "2.308E5 0.000E0 0.000E0",  "-7.671E10 0.000E0 0.000E0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 0 0.0000 0 0 0 1.98892E30","1.496E11 0 0 0 0 0 5.972E24"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>50</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "2.943E2 0.000E0 0.000E0",  "1.495E11 0.000E0 0.000E0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"5.05E9 -5.45E9 7.43E9 63.36 -66.61 37.53 4.43E49",
+ "3.25E9 -3.34E9 -2.64E9 -93.91 85.61 -34.32 7.90E49",
+ "4.97E8 -4.78E9 4.70E9 -2.032 -46.67 66.06 1.74E49",
+ "3.31E9 -2.58E9 4.98E9 26.73 -40.55 -64.62 4.10E48",
+ "1.66E9 2.34E9 2.2E9 -90.23 92.23 -53.40 4.23E49"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "-7.660E28 6.211E28 -1.186E29",
+ "-1.518E28 3.601E28 1.015E29",
+ "1.823E29 7.816E28 -4.915E28",
+ "-2.968E28 -1.486E29 -4.411E28",
+ "3.647E28 -1.500E29 -4.098E28" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              5)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0 0 0 0 0 0 1000","500 500 866.02540378443864676372317 0 0 0 1000","1000 1000 0 0 0 0 1000"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>100</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "0.003E0 0.003E0 0.003E0",
+ "5.000E2 5.000E2 8.660E2",
+ "1.000E3 1.000E3 0.003E0" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    These three objects with relatively low masses (1,000 kg) form an equilateral triangle that slowly closes in.  After 100 hours, each object has moved about 0.0052 (meters) towards the center of the triangle.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=4702&amp;pm=1522">
+            2003 TCO Online Round 1 - Division I, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":53,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

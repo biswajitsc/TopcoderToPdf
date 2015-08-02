@@ -1,0 +1,911 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for DungeonEscape
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               You are the famous explorer Indiana Jones, or Lara Croft, take your pick. You are exploring the ruins of the dungeons beneath King Lockumup IV the Good's castle in Flatlandia. Of course, the dungeon layout is two-dimensional (like your character), East-West and Up-Down in this case, in a regular grid.
+              </p>
+              <pre>
+                        Surface
+                    | | | | | | | | |
+level 0            -R-R-R-R-R-R-R-R-R-
+                    | | | | | | | | |
+level 1   &lt;- West  -R-R-R-R-R-R-R-R-R- East -&gt;
+                    | | | | | | | | |
+level 2            -R-R-R-R-R-R-R-R-R-  
+                    | | | | | | | | |
+                    Depths of Despair
+</pre>
+              <p>
+               "R" indicates a room. "-" indicates an east-west passageway. "|" indicates an up-down passageway.
+              </p>
+              <p>
+               Because it is rough going in the passageways between the rooms (there has been no dungeon maintenance for centuries), it is frequently easier to travel through a passageway in a particular direction than in the opposite direction.  Each room has four passageways leaving in the directions East (right), West (left), Up, and Down which lead to adjacent rooms (except the Down in the bottom-most rooms, the East in the east-most rooms, and the West in the west-most rooms, which have dead-end passageways due to ancient budget cuts, and Up in the topmost rooms which lead to the surface). The time it takes to travel through a passageway from a given room to the adjacent rooms is given in four String[]s depending on your direction of travel. A digit between 0 and 9 indicates how many time units (in the local system of decimillifortnights, dmfs) are taken to leave the room in that direction and travel through the passageway to the adjacent room. An 'x' character indicates that the travel in that direction is too difficult and can not be done. The dead end passageways (at the edges of the dungeon) have time values, or 'x', specified (because they were in the original plans for the dungeon and we have an old map), but we can not actually travel through these passageways in this problem. The dungeon does *not* wrap in any direction (you are probably thinking of the castle of Queen Mobius the One Sided, the former stripper).
+              </p>
+              <p>
+               In other words, if you are in room (i,j), where i is the up-down level and j is your easting (ie. how far east you are) coordinate, 
+then
+              </p>
+              <ul>
+               <li>
+                <b>
+                 up
+                </b>
+                [i][j] tells how many dmfs it takes to get to (i-1,j).
+               </li>
+               <li>
+                <b>
+                 down
+                </b>
+                [i][j] tells how many dmfs it takes to get to (i+1,j).
+               </li>
+               <li>
+                <b>
+                 east
+                </b>
+                [i][j] tells how many dmfs it takes to get to (i,j+1).
+               </li>
+               <li>
+                <b>
+                 west
+                </b>
+                [i][j] tells how many dmfs it takes to get to (i,j-1).
+               </li>
+              </ul>
+              <p>
+               If it is obvious to you how these four directional time value arrays map to 
+a directed graph of the dungeon, then skip this next section of the problem
+description, which goes into detail, and continue reading below for more 
+of the important problem description information.
+              </p>
+              <ul>
+               <li>
+                <p>
+                 For example if given the inputs
+                 <b>
+                  up
+                 </b>
+                 and
+                 <b>
+                  west
+                 </b>
+                 (shown below)
+                </p>
+                <pre>
+up = {"123",      west = {"222",
+      "111",              "131",
+      "121"}              "444"}
+</pre>
+                You would have the following time values for each passageway while going up or west.
+                <pre>
+                   Surface
+                    1 2 3 
+level 0            2R2R2R-      Up and West going
+                    1 1 1       Passageway times
+level 1      West  1R3R1R- East 
+                    1 2 1
+level 2            4R4R4R-      
+                    | | |
+              Depths of Despair
+</pre>
+                <p>
+                 The dead-end passageways on the far west with times {2, 1, 4} are useless and can be ignored.
+                </p>
+                <br/>
+                <p>
+                 Similarly if you have the inputs
+                 <b>
+                  down
+                 </b>
+                 and
+                 <b>
+                  east
+                 </b>
+                 (shown below)
+                </p>
+                <pre>
+down = {"987",      east = {"222",
+        "111",              "3x3",
+        "121"}              "111"}
+</pre>
+                You would have the following time values for each passageway while going down or east.
+                <pre>
+                   Surface
+                    | | |
+level 0            -R2R2R2     Down and East going
+                    9 8 7      Passageway times
+level 1      West  -R3RxR3 East 
+                    1 1 1
+level 2            -R1R1R1
+                    1 2 1 
+               Depths of Despair
+</pre>
+                <p>
+                 The dead-end passageways on the far east with times {2, 3, 1} and the very bottom with times {1, 2, 1} are also
+useless to you and can be ignored.
+                </p>
+               </li>
+              </ul>
+              <p>
+               We are back from the boring details, here is some more important information.
+              </p>
+              <p>
+               Unfortunately for you, Dr. Jones or Dr. Croft, you have just triggered an ancient trap, and the dungeon is beginning to to fill with water. First the lowest level fills with water. If the East-West width of the dungeon is n rooms, then each level of the dungeon takes n decimillifortnights to fill. Once full of water, the rooms on that level are no longer accessible. While partly full of water, they are still fully accessible. Time starts at time = 0, at time = n the lowest level becomes inaccessible, at time = 2n the second lowest level becomes inaccessible, etc. So if you are in, or pass through, a room on the lowest level at time &gt;= n, you are dead.
+              </p>
+              <p>
+               For simplicity, we will only consider if the room is completely filled with water when you enter. So if you leave a nearly filled room, going up through a slow
+passageway, and arrive somewhat later in a now nearly filled room one level up, this is ok. We will ignore the physics which would lead us to think the passageway would fill with water before the room above it. Only check for drowning when you enter the room. Also the surface (above level 0) never fills with water (we run out of water before then), so you can not drown on the surface.
+              </p>
+              <p>
+               Your goal is to get to the surface as fast as possible. You start at the location (
+               <b>
+                startLevel
+               </b>
+               ,
+               <b>
+                startEasting
+               </b>
+               ).  "Easting" is how far east you are in the local coordinate system. Rooms have Easting coordinates between 0 and n-1 inclusive, where
+ n is the number of rooms on each level.  Return the number of time units (decimillifortnights) it takes to escape, or -1 if escape is impossible.
+              </p>
+              <p>
+               For example:
+              </p>
+              <pre>
+<b>up</b> = {"0x4",  <b>down</b> = {"0x9",   <b>east</b> = {"1x9",   <b>west</b> = {"0x9",
+      "0x3",          "009",           "0x9",           "0x0",
+      "0x3"}          "0x9"}           "009"}           "009"}
+<b>startLevel</b> = 2, <b>startEasting</b> = 2
+</pre>
+              <p>
+               We start in the lower right corner. If water were not an issue, we could reach each of the various rooms
+with various paths, and the earliest possible times in which we could reach each room are shown below. If we go straight up,
+the passageways take 3, 3 and 4 dmfs reaching the surface in 10 dmfs. We could also follow the path: up (3 dmfs), west (0 dmfs),
+down (0 dmfs), west (0 dmfs), up (0 dmfs), up (0 dmfs), and up (0 dmfs) reaching the surface in 3 dmfs. The diagram
+below shows the minimum time in which we could first get to each room (if water were not an issue), and the
+passageways used are shown with '|' for up-down, and '-' for east-west.
+              </p>
+              <pre>
+      3  10      - surface
+      |   |  -------------
+      3-4 6      - level 0
+      |   |
+      3 3-3      - level 1
+      | | |
+      3-3 0      - level 2
+</pre>
+              <p>
+               But since level 2 fills with water at time 3, we can not move from (1,1) down to (2,1) at time = 3 dmfs. The
+actual rooms we can reach, considering flooding, are shown below, where 'w' represents a room which is full of water
+when we first could move into it, and 'x' represents a room we can never reach:
+              </p>
+              <pre>
+         10      - surface
+          |   ------------
+      x w-6      - level 0
+          |
+      x 3-3      - level 1
+        | |
+      x w 0      - level 2
+</pre>
+              <p>
+               In this example we can reach the surface in 10 dmfs by going straight up, and this is the minimum, 
+so return 10.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 DungeonEscape
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 exitTime
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], String[], String[], String[], int, int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 int exitTime(String[] up, String[] down, String[] east, String[] west, int startLevel, int startEasting)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               up
+              </b>
+              ,
+              <b>
+               down
+              </b>
+              ,
+              <b>
+               east
+              </b>
+              and
+              <b>
+               west
+              </b>
+              have the same constraints, only
+              <b>
+               up
+              </b>
+              is described.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               up
+              </b>
+              will contain between 1 and 50 elements inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              each element of
+              <b>
+               up
+              </b>
+              will contain between 1 and 50 characters inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              each character in each element of
+              <b>
+               up
+              </b>
+              will be a digit between '0' and '9' inclusive or 'x'.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               up
+              </b>
+              ,
+              <b>
+               down
+              </b>
+              ,
+              <b>
+               east
+              </b>
+              and
+              <b>
+               west
+              </b>
+              will all have exactly the same number of elements in each.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              All elements of
+              <b>
+               up
+              </b>
+              ,
+              <b>
+               down
+              </b>
+              ,
+              <b>
+               east
+              </b>
+              and
+              <b>
+               west
+              </b>
+              will contain the same number of characters.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               startLevel
+              </b>
+              will be between 0 and (the number of elements in
+              <b>
+               up
+              </b>
+              ) - 1 inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               startEasting
+              </b>
+              will be between 0 and (the number of characters in
+              <b>
+               up
+              </b>
+              [0]) - 1 inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0x4",
+ "0x3",
+ "0x3"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0x9",
+ "009",
+ "0x9"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0x9",
+ "1x9",
+ "009"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"0x9",
+ "0x0",
+ "009"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 10</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The example from above.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxx1",
+ "1xxxxxxxxx",
+ "xxxxxxxxx1"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxxx",
+ "xxxxxxxxxx",
+ "xxxxxxxxxx"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"1111111111",
+ "xxxxxxxxxx",
+ "1111111111"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxxx",
+ "1111111111",
+ "xxxxxxxxxx"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 30</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Only one serpentine path out, just avoiding the water.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxx1",
+ "xxxx999991",
+ "x999999991"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"1111111111",
+ "1111111111",
+ "1111111111"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"1111122242",
+ "2222222241",
+ "2111111111"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxx1",
+ "1111111111",
+ "xxxxxxxxx1"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>2</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>0</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: -1</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    No way out that is fast enough, glub, glub...
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"1x2x3x4x5x6x7x8x9",
+ "00000000000000000",
+ "98765432223456789",
+ "12345678987654321"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"00000000000000000",
+ "00000000000000000",
+ "00000000000000000",
+ "00000000000000000"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxxxxxxxxxx",
+ "xxxxxxxxxxxxxxxxx",
+ "22222222222222222",
+ "33333333333333333"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"xxxxxxxxxxxxxxxxx",
+ "xxxxxxxxxxxxxxxxx",
+ "22222222222222222",
+ "33333333333333333"}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>3</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>12</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 17</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5073&amp;pm=2449">
+            Single Round Match 198 Round 1 - Division I, Level Two
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":57,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

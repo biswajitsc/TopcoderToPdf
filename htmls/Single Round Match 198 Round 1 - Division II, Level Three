@@ -1,0 +1,809 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for ComplexIntegers
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <i>
+               Warning: This problem statement makes extensive use of html superscripts and subscripts and will not be displayed properly with plugins. Use the applet window to read this problem statement.
+              </i>
+              <p>
+               A complex number can be represented by a+bi where a and b are real numbers and i is the square root of negative one (ie. i*i = -1), a so-called "imaginary" number. "a" is called the "real part" of the complex number, and "bi" is called the "imaginary part." Complex numbers where the real part and the imaginary part (ignoring the i) are both integers are called complex integers, or Gaussian integers.  Two complex integers a+bi and c+di can be multiplied yielding a complex integer (ac-bd)+(ad+bc)i. Once we have complex integers and complex integer multiplication defined, one wonders if there are complex primes similar to the primes of the positive integers. Yes there are, but they are a little different.
+              </p>
+              <p>
+               Let us pause to define a few terms here.
+              </p>
+              <ul>
+               <li>
+                A "prime number" is a positive integer greater than one that has no positive integer factors other than one and itself.
+               </li>
+               <li>
+                A "composite number" is a positive integer that has at least one positive integer factor other than one and itself.
+               </li>
+               <li>
+                The "norm" of the complex number z, where z=a+bi, is written |z|
+                <sup>
+                 2
+                </sup>
+                and is defined as a
+                <sup>
+                 2
+                </sup>
+                +b
+                <sup>
+                 2
+                </sup>
+                (this is actually the L
+                <sub>
+                 2
+                </sub>
+                norm).
+               </li>
+               <li>
+                F and G are "complex integer factors" of z if F and G are complex integers and F * G = z (F may equal G).
+               </li>
+              </ul>
+              <p>
+               Complex Integers can be divided into four categories.
+              </p>
+              <ul>
+               <li>
+                Complex Zeros, 0, satisfy the equation z * 0 = 0 for all complex numbers z. There is one complex zero, (0+0i)
+               </li>
+               <li>
+                Complex Units, I, satisfy the equation |z * I|
+                <sup>
+                 2
+                </sup>
+                = |z|
+                <sup>
+                 2
+                </sup>
+                for all complex numbers z. There are four complex integers which are complex units (0+1i), (0-1i), (1+0i) and (-1+0i)
+               </li>
+               <li>
+                Complex Primes, P, have |P|
+                <sup>
+                 2
+                </sup>
+                &gt; 1 and have no complex integer factor, F, such that |P|
+                <sup>
+                 2
+                </sup>
+                &gt; |F|
+                <sup>
+                 2
+                </sup>
+                &gt; 1
+               </li>
+               <li>
+                Complex Composites, C, have at least one complex integer factor, F, such that |C|
+                <sup>
+                 2
+                </sup>
+                &gt; |F|
+                <sup>
+                 2
+                </sup>
+                &gt; 1
+               </li>
+              </ul>
+              <p>
+               After a bit of not particularly obvious algebraic manipulation we find the following somewhat easy-to-test rules:
+              </p>
+              <ul>
+               <li>
+                For complex integers, z = a+bi
+               </li>
+               <li>
+                if |z|
+                <sup>
+                 2
+                </sup>
+                = 0, then z is a complex zero.
+               </li>
+               <li>
+                if |z|
+                <sup>
+                 2
+                </sup>
+                = 1, then z is a complex unit.
+               </li>
+               <li>
+                if |z|
+                <sup>
+                 2
+                </sup>
+                &gt; 1 , and p is any prime number that also satisfies p % 4 = 3
+               </li>
+               <li>
+                <ul>
+                 <li>
+                  if a (or b) is zero and b (or a) is equal to some p or -p, then z is a complex prime.
+                 </li>
+                 <li>
+                  if a (or b) is zero and b (or a) is not equal to any p or -p, then z is a complex composite.
+                 </li>
+                 <li>
+                  if a and b are both non-zero and |z|
+                  <sup>
+                   2
+                  </sup>
+                  is a prime number then z is a complex prime.
+                 </li>
+                 <li>
+                  if a and b are both non-zero and |z|
+                  <sup>
+                   2
+                  </sup>
+                  is a composite number then z is a complex composite .
+                 </li>
+                </ul>
+               </li>
+              </ul>
+              <p>
+               Given two int[]s,
+               <b>
+                realPart
+               </b>
+               and
+               <b>
+                imaginaryPart
+               </b>
+               , return a String[] where
+the k'th element of the answer is "zero", "unit", "prime", or "composite"  corresponding to the complex integer (realPart[k]+imaginaryPart[k]i)
+              </p>
+              <p>
+               For example:
+              </p>
+              <pre>
+{ 0,     1,       0,     1,       -1,      2,           0,       0,          -3}
+{ 0,     0,      -1,     1,        1,      0,          -3,       5,          -2}
+returns
+{"zero", "unit", "unit", "prime", "prime", "composite", "prime", "composite", "prime"}
+</pre>
+              Some factorizations of the composites are:
+              <ul>
+               <li>
+                (2+0i) = (1+1i)*(1-1i)
+               </li>
+               <li>
+                (0+5i) = (1+2i)*(2+1i)
+               </li>
+              </ul>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 ComplexIntegers
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 classify
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 int[], int[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] classify(int[] realPart, int[] imaginaryPart)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               realPart
+              </b>
+              will contain between 1 and 50 elements inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               imaginaryPart
+              </b>
+              will contain the same number of elements as
+              <b>
+               realPart
+              </b>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              each element of
+              <b>
+               realPart
+              </b>
+              will be between -10000 and 10000 inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              each element of
+              <b>
+               imaginaryPart
+              </b>
+              will be between -10000 and 10000 inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ 0,     1,       0,     1,       -1,      2,           0,       0,          -3}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{ 0,     0,      -1,     1,        1,      0,          -3,       5,          -2}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "zero",
+ "unit",
+ "unit",
+ "prime",
+ "prime",
+ "composite",
+ "prime",
+ "composite",
+ "prime" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The example from above.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{2,3,4,5,2,3,4,5,2,3,4,5,2,3,4,5}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "composite",
+ "prime",
+ "composite",
+ "prime",
+ "prime",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "prime",
+ "prime",
+ "composite",
+ "prime",
+ "composite" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,0,0,0,0,0,0,0,-19,23,29,31,37,-41}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{15,2,-3,5,-7,11,-13,17,0,0,0,0,0,0,0}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "composite",
+ "composite",
+ "prime",
+ "composite",
+ "prime",
+ "prime",
+ "composite",
+ "composite",
+ "zero",
+ "prime",
+ "prime",
+ "composite",
+ "prime",
+ "composite",
+ "composite" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{99,-39,0,0,97,1003,9998,1119}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,0,35,-129,-2,-232,9997,1120}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "prime",
+ "prime",
+ "prime",
+ "prime" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,  0,0,1,-1,   1,1,-1,-1,   2,-2,0,0,  1,1,2,2,-1,-1,-2,-2, 
+     3,-3,0,0,   1,1,3,3,-1,-1,-3,-3,    2,2,-2,-2,  0,0,4,-4,
+                 1,1,4,4,-1,-1,-4,-4 }</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>{0,  1,-1,0,0,   1,-1,1,-1,   0,0,2,-2,  2,-2,1,-1,2,-2,1,-1,  
+     0,0,-3,3,   3,-3,1,-1,3,-3,1,-1,     2,-2,2,-2,  4,-4,0,0,
+                 4,-4,1,-1,4,-4,1,-1 }</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "zero",
+ "unit",
+ "unit",
+ "unit",
+ "unit",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "composite",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime",
+ "prime" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5073&amp;pm=2439">
+            Single Round Match 198 Round 1 - Division II, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":58,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

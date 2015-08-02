@@ -1,0 +1,985 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for bloggoProximitySearch
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               To help end users sift through archival content, bloggo makes it
+possible for content authors to incorporate a search facility into their
+websites. Among the query types supported by the bloggo search engine
+is
+               <i>
+                proximity search
+               </i>
+               , which lets users look for passages in which
+specified words occur near one another. The syntax of a proximity-search
+query is prescribed by the following grammar.
+              </p>
+              <pre>
+
+  Query -&gt; Word | "(" Query " " Near " " Query ")"
+  Near -&gt; "+" Num
+  Num -&gt; Digit | Digit Digit | Digit Digit Digit
+  Digit -&gt; "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+</pre>
+              <p>
+               A passage returned by proximity search is displayed to the user as a
+substring of a text document. Internally, a passage is represented
+by a pair of non-negative integers (
+               <i>
+                a
+               </i>
+               ,
+               <i>
+                b
+               </i>
+               ) such that
+               <i>
+                a
+               </i>
+               &lt;=
+               <i>
+                b
+               </i>
+               , where
+               <i>
+                a
+               </i>
+               and
+               <i>
+                b
+               </i>
+               are the zero-based
+position numbers respectively of the first and last words in the
+substring. A word is a sequence of alphabetic characters that is not
+contained within a longer word. If a passage consists of a single word,
+then
+               <i>
+                a
+               </i>
+               =
+               <i>
+                b
+               </i>
+               . For example, the passage (9,11) of the following
+document is "appraising his wheat", while passage (17,17)
+is "actor". Position numbers have been added for purposes
+of illustration.
+              </p>
+              <pre>
+
+    His expression combined that of a Middle Western farmer appraising
+    0   1          2        3    4  5 6      7       8      9
+
+    his wheat crop and that of an actor wondering whether he is
+    10  11    12   13  14   15 16 17    18        19      20 21
+
+    observed--the public manner of all good Americans.  (Fitzgerald)
+    22        23  24     25     26 27  28   29           30
+</pre>
+              <p>
+               If a query consists of a word, it matches all passages consisting of
+just that word. Matching is case-insensitive, so the query "HIS" would
+match passages (0,0) and (10,10) in the above document.
+              </p>
+              <p>
+               If a query consists of two queries
+               <i>
+                X
+               </i>
+               and
+               <i>
+                Y
+               </i>
+               joined by the
+"Near" operator, it matches a passage (
+               <i>
+                p
+               </i>
+               ,
+               <i>
+                q
+               </i>
+               ) under
+the following conditions. There must be a passage (
+               <i>
+                a
+               </i>
+               ,
+               <i>
+                b
+               </i>
+               )
+matching query
+               <i>
+                X
+               </i>
+               , and a passage (
+               <i>
+                c
+               </i>
+               ,
+               <i>
+                d
+               </i>
+               ) matching
+query
+               <i>
+                Y
+               </i>
+               . Letting
+               <i>
+                n
+               </i>
+               be the number specified by the "Near"
+operator, it must be true that if the two passages don't overlap, they
+are separated by at most
+               <i>
+                n
+               </i>
+               words. So if
+               <i>
+                b
+               </i>
+               &lt;
+               <i>
+                c
+               </i>
+               or
+               <i>
+                d
+               </i>
+               &lt;
+               <i>
+                a
+               </i>
+               , we must have (
+               <i>
+                c
+               </i>
+               -
+               <i>
+                b
+               </i>
+               )&lt;=
+               <i>
+                n+1
+               </i>
+               or (
+               <i>
+                a
+               </i>
+               -
+               <i>
+                d
+               </i>
+               )&lt;=
+               <i>
+                n+1
+               </i>
+               , respectively. Finally,
+               <i>
+                p
+               </i>
+               and
+               <i>
+                q
+               </i>
+               are the leftmost and rightmost endpoints among the two
+passages, meaning that
+               <i>
+                p
+               </i>
+               =min{
+               <i>
+                a
+               </i>
+               ,
+               <i>
+                c
+               </i>
+               }
+and
+               <i>
+                q
+               </i>
+               =max{
+               <i>
+                b
+               </i>
+               ,
+               <i>
+                d
+               </i>
+               }.
+              </p>
+              <p>
+               You are given a String[],
+               <b>
+                documents
+               </b>
+               , each element
+of which is a single document that may include, in addition to words and
+space characters, the punctuation symbols ',', ';', '.', '!', '?', '-',
+'(', and ')'. You are also given a String,
+               <b>
+                query
+               </b>
+               ,
+containing a proximity-search query. Find the top ten passages matching
+this query and return them in a String[] formatted according
+to the specifications below and sorted by descending order of quality,
+where quality is also defined below. Each passage must be a substring
+of an element of
+               <b>
+                documents
+               </b>
+               , and must begin and end with a whole word.
+              </p>
+              <p>
+               The smaller the width
+               <i>
+                q
+               </i>
+               -
+               <i>
+                p
+               </i>
+               of a passage (
+               <i>
+                p
+               </i>
+               ,
+               <i>
+                q
+               </i>
+               ),
+the higher its quality. In the event of a tie between two passages, the
+one occurring in the lower-numbered document takes precedence. If both
+are in the same document, the one occurring earlier is better. Although
+every pair of passages in the search results must be different in the
+sense of covering different spans or occurring in different documents,
+they may have identical textual content. If there are fewer than ten 
+matching passages among the documents, return the ones that do exist. To
+make the search results helpful to users, each passage should be presented
+in the format
+              </p>
+              <pre>
+
+  DOC_ID START_INDEX [PASSAGE_TEXT]
+</pre>
+              <p>
+               where DOC_ID is the zero-based index of the document from which the 
+passage is drawn, START_INDEX is the zero-based character index of the
+first character in the passage, and PASSAGE_TEXT is the text of the
+passage. There is one space between DOC_ID and START_INDEX, one space 
+between START_INDEX and the left bracket, and no other spaces except
+possibly in the PASSAGE_TEXT.
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 bloggoProximitySearch
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 findPassages
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[], String
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] findPassages(String[] documents, String query)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               documents
+              </b>
+              contains between 1 and 50 elements, inclusive
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              each element of
+              <b>
+               documents
+              </b>
+              is between 1 and 50 characters long, inclusive
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              the only characters allowed in
+              <b>
+               documents
+              </b>
+              are 'a' to 'z', 'A' to 'Z', the space character, ',', ';', '.', '!', '?', '-', '(', and ')'
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               query
+              </b>
+              is between 1 and 50 characters long, inclusive
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               query
+              </b>
+              consists of a proximity-search query as defined above
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"But in a larger sense we can not dedicate --",
+ "we can not consecrate -- we can not hallow this",
+ "ground. The brave men, living and dead, who",
+ "struggled, here, have consecrated it far above",
+ "our poor power to add or detract. The world will",
+ "little note, nor long remember, what we say here,",
+  "but can never forget what they did here. It is",
+ "for us, the living, rather to be dedicated here",
+ "to the unfinished work which they have, thus",
+ "far, so nobly carried on. It is rather for us",
+ "to be here dedicated to the great task remaining",
+ "before us -- that from these honored dead we take",
+ "increased devotion to that cause for which they",
+ "here gave the last full measure of devotion --",
+ "that we here highly resolve that these dead",
+ "shall not have died in vain; that this nation",
+ "shall have a new birth of freedom; and that",
+ "this government of the people, by the people,",
+ "for the people, shall not perish from the earth."}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"(can +000 we)"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "0 22 [we can]",  "1 0 [we can]",  "1 25 [we can]" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    These documents are made of fragments of the Gettysburg Address. The words "can" and "we" occur next to each other in three places.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"But in a larger sense we can not dedicate --",
+ "we can not consecrate -- we can not hallow this",
+ "ground. The brave men, living and dead, who",
+ "struggled, here, have consecrated it far above",
+ "our poor power to add or detract. The world will",
+ "little note, nor long remember, what we say here,",
+  "but can never forget what they did here. It is",
+ "for us, the living, rather to be dedicated here",
+ "to the unfinished work which they have, thus",
+ "far, so nobly carried on. It is rather for us",
+ "to be here dedicated to the great task remaining",
+ "before us -- that from these honored dead we take",
+ "increased devotion to that cause for which they",
+ "here gave the last full measure of devotion --",
+ "that we here highly resolve that these dead",
+ "shall not have died in vain; that this nation",
+ "shall have a new birth of freedom; and that",
+ "this government of the people, by the people,",
+ "for the people, shall not perish from the earth."}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"this"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "1 43 [this]",  "15 34 [this]",  "17 0 [this]" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The word "this" appears three times.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"But in a larger sense we can not dedicate --",
+ "we can not consecrate -- we can not hallow this",
+ "ground. The brave men, living and dead, who",
+ "struggled, here, have consecrated it far above",
+ "our poor power to add or detract. The world will",
+ "little note, nor long remember, what we say here,",
+  "but can never forget what they did here. It is",
+ "for us, the living, rather to be dedicated here",
+ "to the unfinished work which they have, thus",
+ "far, so nobly carried on. It is rather for us",
+ "to be here dedicated to the great task remaining",
+ "before us -- that from these honored dead we take",
+ "increased devotion to that cause for which they",
+ "here gave the last full measure of devotion --",
+ "that we here highly resolve that these dead",
+ "shall not have died in vain; that this nation",
+ "shall have a new birth of freedom; and that",
+ "this government of the people, by the people,",
+ "for the people, shall not perish from the earth."}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"((the +099 people) +999 by)"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "17 19 [the people, by]",
+ "17 23 [people, by the]",
+ "17 31 [by the people]",
+ "17 19 [the people, by the people]" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Passages may overlap.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"But in a larger sense we can not dedicate --",
+ "we can not consecrate -- we can not hallow this",
+ "ground. The brave men, living and dead, who",
+ "struggled, here, have consecrated it far above",
+ "our poor power to add or detract. The world will",
+ "little note, nor long remember, what we say here,",
+  "but can never forget what they did here. It is",
+ "for us, the living, rather to be dedicated here",
+ "to the unfinished work which they have, thus",
+ "far, so nobly carried on. It is rather for us",
+ "to be here dedicated to the great task remaining",
+ "before us -- that from these honored dead we take",
+ "increased devotion to that cause for which they",
+ "here gave the last full measure of devotion --",
+ "that we here highly resolve that these dead",
+ "shall not have died in vain; that this nation",
+ "shall have a new birth of freedom; and that",
+ "this government of the people, by the people,",
+ "for the people, shall not perish from the earth."}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"((TO +20 (tO +20 tO)) +20 ((TO +20 tO) +20 To))"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "4 15 [to]",
+ "7 27 [to]",
+ "8 0 [to]",
+ "10 0 [to]",
+ "10 21 [to]",
+ "12 19 [to]",
+ "10 0 [to be here dedicated to]" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Word matching is case-insensitive.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"c B b B A C b b A C A a c a B A b C c b b b b A a ",
+ "b A A C c c B c A c c C b c B C B A a B b a b c A ",
+ "a C C B A b A a A c A B b b a A A C a B C A A b C ",
+ "C A a a c a A B C a c B c B b A c B A A c b b B b ",
+ "a A a A b C A b c a B B a c B A a c a b c b C b C ",
+ "c C A a C C A c A c b a b A b A c C A C b C C B c ",
+ "a B C B c A b C c c a a c a c A A c a A B c c A c ",
+ "A C A C c a b C C C c A a b a b b C C a A C b a c ",
+ "C A B c a A B b b c b C b B C c A b A B A c b B a ",
+ "c b a B a C B C c A c b B c C A A C c C a B C a a ",
+ "A C C A a C C B a c C a C a c A A A C c A a B a A ",
+ "a b c B C C A b b a c c b B A B b A b b b b a a b ",
+ "C B c C B b c c a C B C b B B a C B B a A B B c c ",
+ "a B B B B A c c C a b b A c B A A b B B B c C c B ",
+ "c A B C b B b c a a C b b c b c b a B A c c A a A ",
+ "a B A B c c b C A A b b A a A B b C A A B b c b C ",
+ "b b b A A c a c a c a B A B b a a A c B b B B A b ",
+ "c a b B a b A c C B b B b c A A C c b C B a c c c ",
+ "C A A C b C C A a c B c b B C A c B a c c B c b c ",
+ "b A A B b B b b b A C b a b A C b B C A c c A B A ",
+ "b a c b B a B B B a a a A C a a A A A A A B a c a ",
+ "c a A C c A c b a a C B b c c B C B c b a c C B B ",
+ "a b A c B b b B B C c b c B A a a b C b a C b c b ",
+ "c b b b a a A b b b b c B b b c c a a c a C A a b ",
+ "C B b b A A A b B c b C a c C a B A A C C c C b C ",
+ "B C a a B A a B c B a C c B A B b c B a b B B b C ",
+ "a A a C C b A C a C b b A a B C C C C A c C c C b ",
+ "a c a a A a c C b B b c A c B b A A A B a C c c c ",
+ "A c B b c C c a b b C B b c B b b A C c B b a b b ",
+ "c a c A A B C C b C b C c C c C c b b a A C c C a ",
+ "A b a A b B B C c C c c a b C a C a b c c A A B c ",
+ "c C a b A a b A C C a C A a B C c a C b c b B C C ",
+ "B C C B b B C A c a C B c a B b c B A A a a a b C ",
+ "b a a A A B b b a b A b b a b c A B B c C a a A C ",
+ "a c a C A b a A C c a C c b b A A B a C B a A C B ",
+ "B A B B a a c c a c b A c c c B C A A B a b B B B ",
+ "C c B c A c b C b a c b a c C A c A a c b a b c c ",
+ "B C b c c A C A b A B c c c B A C b b C c C a a b ",
+ "C a b b C a C B a B C b c C C c b b c A b B B b a ",
+ "a B A b a A C C B C B A B a b a a c a c b b b B a ",
+ "c b c B A C C c A B a b B a A A C b A C b C a a c ",
+ "b b a b a A c c A c A A A a A b c a C C b a A C a ",
+ "a B b A b C c c a A b A c A B A b B a B a b A c A ",
+ "c B b b C b c c c a B C c c c a b a c B B a C c A ",
+ "C A a b c C c b a B A c A C C c B A C b A C c b c ",
+ "a c A a b C b C A C A A a c B c a B A B B b A c a ",
+ "B c C B a B C C B a a B A b b c b b A c A B b A a ",
+ "c c c a C A B a c b c a B c b a C B a B A a b c A ",
+ "B c b a C B c A A b a a c c c A c B C B B C b b a ",
+ "C a C c a c c c b a C C B C a B a C A b a C a c B "}</pre>
+                   </td>
+                  </tr>
+                  <tr>
+                   <td class="statText">
+                    <pre>"(a +3 (b +2 (a +6 (((b +1 c) +3 a) +0 c))))"</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "0 6 [B A C]",
+ "0 8 [A C b]",
+ "0 14 [b A C]",
+ "0 24 [c a B]",
+ "0 30 [A b C]",
+ "1 12 [B c A]",
+ "1 30 [C B A]",
+ "1 42 [a b c]",
+ "1 44 [b c A]",
+ "2 4 [C B A]" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5860&amp;pm=3026">
+            Single Round Match 214 Round 1 - Division I, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":61,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

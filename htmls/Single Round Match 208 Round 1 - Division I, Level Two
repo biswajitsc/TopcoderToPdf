@@ -1,0 +1,679 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for QueenInterference
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <i>
+               This problem contains images.
+              </i>
+              <br/>
+              <br/>
+              In chess the queen reigns supreme over all other pieces.  She has mastered the techniques of the rook and the bishop, thus allowing her to move any number of steps diagonally, vertically, or horizontally.  Since a single queen controls such a large area, it is hard to put multiple queens on the board without them getting in each others' way (two queens are "in each others' way" if one can reach the other in a single move).  For this reason there is a famous challenge requiring
+              <b>
+               n
+              </b>
+              queens to be placed on an
+              <b>
+               n
+              </b>
+              -by-
+              <b>
+               n
+              </b>
+              chess board such that no two queens interfere with each other.
+              <br/>
+              <br/>
+              In this problem you will implement a particular randomized solution.  The board is setup as follows starting with column 1 on the left, and ending with column
+              <b>
+               n
+              </b>
+              on the right:
+              <ul>
+               <li>
+                1) Choose a random number
+                <i>
+                 R
+                </i>
+                between 1 and
+                <b>
+                 n
+                </b>
+                inclusive.
+               </li>
+               <li>
+                2) Place a queen in row
+                <i>
+                 R
+                </i>
+                of the current column (row 1 is the top; row
+                <b>
+                 n
+                </b>
+                is the bottom).
+               </li>
+              </ul>
+              An
+              <i>
+               alteration step
+              </i>
+              works as follows:
+              <ul>
+               <li>
+                1) Compute
+                <i>
+                 T
+                </i>
+                , the number of columns containing reachable queens.
+               </li>
+               <li>
+                2) Choose a random number
+                <i>
+                 K
+                </i>
+                between 1 and
+                <i>
+                 T
+                </i>
+                inclusive. Let
+                <i>
+                 C
+                </i>
+                denote the
+                <i>
+                 K
+                </i>
+                th column, counting from the left, that contains a reachable queen.  
+	    In effect, we have randomly chosen one of the reachable queens.
+               </li>
+               <li>
+                3) For each of the
+                <b>
+                 n
+                </b>
+                positions in column
+                <i>
+                 C
+                </i>
+                , 
+	    compute how many queens from other columns can currently reach that position.
+               </li>
+               <li>
+                4) Move the queen in column
+                <i>
+                 C
+                </i>
+                to the position in column
+                <i>
+                 C
+                </i>
+                reachable 
+	    by the fewest number of queens.  If multiple positions are tied, continue to step 5, otherwise the alteration step is complete.
+               </li>
+               <li>
+                5) Compute
+                <i>
+                 P
+                </i>
+                , the number of positions that tied in step 4.
+               </li>
+               <li>
+                6) Choose a random number
+                <i>
+                 Q
+                </i>
+                between 1 and
+                <i>
+                 P
+                </i>
+                inclusive.  Counting from the top down, 
+	    move the queen to the
+                <i>
+                 Q
+                </i>
+                th of the tied positions in 4.
+               </li>
+              </ul>
+              Note that an alteration step may not cause any movement at all.  You will return how many alteration steps are required before no two queens interfere with one another.  The
+              <i>
+               i
+              </i>
+              th random value used in the algorithms above will be (
+              <i>
+               a
+              </i>
+              (
+              <i>
+               i
+              </i>
+              ) %
+              <i>
+               Up
+              </i>
+              )+1 where
+              <i>
+               Up
+              </i>
+              is the inclusive upper bound on the random number required and
+              <i>
+               a
+              </i>
+              (
+              <i>
+               i
+              </i>
+              ) is given by the following formula:
+              <ul>
+               <li>
+                <i>
+                 a
+                </i>
+                ( 1 ) = 1 ,
+               </li>
+               <li>
+                <i>
+                 a
+                </i>
+                (
+                <i>
+                 k
+                </i>
+                +1 ) = ( 16807 *
+                <i>
+                 a
+                </i>
+                (
+                <i>
+                 k
+                </i>
+                ) ) % 2147483647 for
+                <i>
+                 k
+                </i>
+                &gt; 0.
+               </li>
+              </ul>
+              Here % denotes modulus or remainder.  Use a 64-bit integral type to correctly compute the
+              <i>
+               a
+              </i>
+              (
+              <i>
+               j
+              </i>
+              ) values.  Random values 1 through
+              <b>
+               n
+              </b>
+              will be used to setup the board, while the remaining values will be used to perform the alteration steps.  Make sure to follow the algorithm carefully thus ensuring each random value is used at the correct time.  Specifically, make sure you do not continue on to step 5 unless directed to do so.  If no alteration steps are required, return 0.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 QueenInterference
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 numSteps
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 int
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 int numSteps(int n)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               n
+              </b>
+              must be between 4 and 100 inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               n
+              </b>
+              will not be 17.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>5</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 4</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The first 5 random numbers are 2,3,5,4,4 thus producing the following initial configuration.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chesstmp.jpg"/>
+                    <br/>
+                    <b>
+                     Alteration Step 1:
+                    </b>
+                    <br/>
+                    All 5 queens are reachable, so we choose a random number between 1 and 5 inclusive.  The number we get is 1, so we shall work on the leftmost column.  Computing reachabilities we arrive at the following scores.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chessnum.jpg"/>
+                    <br/>
+                    Since there are 3 positions reachable by 1 queen, we retrieve another random number between 1 and 3 inclusive.  The number turns out to be 3 so the queen is placed on the lowest of the 3 potential spots.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chesstmp2.jpg"/>
+                    <br/>
+                    <b>
+                     Alteration Step 2:
+                    </b>
+                    <br/>
+                    Since only 4 queens are still reachable we choose a random number between 1 and 4 inclusive.
+The next two random values are 1 and 3 so the previous steps are repeated and the board remains unchanged.
+                    <br/>
+                    <b>
+                     Alteration Step 3:
+                    </b>
+                    <br/>
+                    Again we choose a random number between 1 and 4 inclusive, but this time we get 4.  Column 5 is the fourth column containing a reachable queen.  We thus compute how many queens can reach each position in that column.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chessnum2.jpg"/>
+                    <br/>
+                    Row 2 is the least reachable, so the queen is moved there.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chesstmp3.jpg"/>
+                    <br/>
+                    <b>
+                     Alteration Step 4:
+                    </b>
+                    <br/>
+                    Now there are 3 reachable queens so we choose a random number between 1 and 3 inclusive.  We get the number 2 thus causing us to alter column 3 (the second column from the left containing a reachable queen).  Now we compute how many queens can reach each position.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chessnum3.jpg"/>
+                    <br/>
+                    Only the topmost position is reachable by 0 queens so we move the queen there.
+                    <br/>
+                    <img src="http://www.topcoder.com/contest/problem/QueenInterference/chesstmp4.jpg"/>
+                    <br/>
+                    Now the board is complete, so we return 4.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>7</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 6</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>19</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 475</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    The most possible steps.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5854&amp;pm=2935">
+            Single Round Match 208 Round 1 - Division I, Level Two
+           </a>
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5854&amp;pm=2935">
+            Single Round Match 208 Round 1 - Division II, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697653","applicationTime":35,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>

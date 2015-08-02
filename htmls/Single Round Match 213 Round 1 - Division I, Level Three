@@ -1,0 +1,1051 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);
+  </script>
+  <title>
+   TopCoder Statistics - Problem Statement
+  </title>
+  <base href="http://community.topcoder.com/"/>
+  <script src="/js/reskin/jquery-1.11.0.min.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/jquery-migrate-1.2.1.js" type="text/javascript">
+  </script>
+  <!--[if lt IE 9]>
+<script type="text/javascript" src="/js/reskin/html5shiv.js"></script>
+<![endif]-->
+  <script src="/js/reskin/jquery.jfeed.pack.js" type="text/javascript">
+  </script>
+  <script src="/js/reskin/newTCScript.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="/css/coders.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/jobsRemix.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/myHome.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/reskin/newStyles.css" rel="stylesheet" type="text/css"/>
+  <!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/css/reskin/newStyles_ie8.css"/>
+<![endif]-->
+  <style type="text/css">
+   a:link {color: white}
+a:visited {color: white}
+  </style>
+ </head>
+ <body text="#FFFFFF">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td class="alignTop" valign="top" width="180">
+    </td>
+    <td class="alignTop" valign="top" width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="bodyText" valign="top" width="100%">
+     <img border="0" height="1" src="/i/clear.gif" vspace="5" width="240"/>
+     <br/>
+     <!-- BEGIN BODY -->
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+       <td align="left" class="alignBottom" height="26" valign="bottom" width="11">
+        <img border="0" height="26" src="/i/steelblue_top_left1.gif" width="11"/>
+       </td>
+       <td align="left" class="alignBottom" valign="bottom" width="180">
+        <img border="0" height="26" src="/i/header_statistics.gif" width="180"/>
+       </td>
+       <td class="bodyTextBold" valign="middle" width="100%">
+        <span class="bodySubhead">
+         Problem Statement
+        </span>
+       </td>
+       <td align="right" class="alignTop" valign="top" width="10">
+        <img alt="" border="0" height="26" src="/i/clear.gif" width="10"/>
+       </td>
+      </tr>
+     </table>
+     <table bgcolor="#001B35" border="0" cellpadding="10" cellspacing="0" class="paddingTable" width="100%">
+      <tr>
+       <td class="alignTop" valign="top" width="100%">
+        <img alt="" border="0" height="1" src="/i/clear.gif" width="240"/>
+        <br/>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_gray_bg.gif" class="statTextBig" colspan="7" height="18">
+           Problem Statement for TCMinMin
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="1" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td align="left" class="problemText" valign="middle">
+           <table>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Problem Statement
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <p>
+               You have been charged with writing the 'type checking' module for a new 
+language called TC--.  When coding in TC--, the coder is allowed to 
+omit the types of local variables and parameters, and the return types of functions,
+               <i>
+                only when the compiler is able to deduce those types from their usage.
+               </i>
+               Each 
+valid program has one and only one possible "type set".
+              </p>
+              <p>
+               Sometimes a variable is used before its type is "known" when reading the 
+program from top to bottom, but that should not deter the type checking module 
+you're writing. Once the type of a variable is known, it is retroactively 
+effective to the start of the function, and proactively effective to the 
+end of the function.  This applies to local variables, formal parameters, 
+and function return types.
+              </p>
+              <p>
+               Informally the grammar can be defined as:
+              </p>
+              <ul>
+               <li>
+                - A program is one or more function definitions.
+               </li>
+               <li>
+                - A function definition always includes the name of the function, zero or more parameters with optional type definitions, and an optional return type. Every function will return a value, even if it is not explicitly declared. After the function definition, zero or more local variables will be defined,
+then zero or more program statements, then exactly one return statement.  Example:
+                <pre>
+	function a(b:string)
+</pre>
+               </li>
+               <li>
+                - Local variable definitions.  Variable definitions are optional, but when present,
+                <i>
+                 must
+                </i>
+                specify the variable name
+                <i>
+                 and
+                </i>
+                type:
+                <pre>
+	a:int
+	b:string
+</pre>
+               </li>
+               <li>
+                - Function call.  There can be zero or more actual arguments, which always match
+	the type and number of formal parameters.
+                <i>
+                 All arguments are variables only and never
+        integer or string constants, nor expressions.
+                </i>
+                <pre>
+	a=b()
+	c=d(e,f,g)
+</pre>
+               </li>
+               <li>
+                - Assignment.
+                <pre>
+	a=12345
+	s="this is 'a' string constant!"
+	b=c
+</pre>
+               </li>
+               <li>
+                - Expressions: (note, you cannot mix
+                <tt>
+                 int
+                </tt>
+                s and
+                <tt>
+                 string
+                </tt>
+                s, and cannot use constants in expressions)
+                <pre>
+	a=b+c
+	a=b-c
+	a=b/c
+	a=b*c
+</pre>
+               </li>
+               <li>
+                - Return statement: (you can return a variable, or an
+                <tt>
+                 int
+                </tt>
+                or
+                <tt>
+                 string
+                </tt>
+                constant)
+                <pre>
+	return x
+</pre>
+               </li>
+              </ul>
+              <p>
+               Function calls, assignments and expressions are all instances of "program statements" and can occur in any order within the function. A return statement will always be the last statement in a function.
+              </p>
+              <p>
+               Note that there are only two data types in TC--:
+               <tt>
+                int
+               </tt>
+               and
+               <tt>
+                string
+               </tt>
+               .  You cannot mix
+               <tt>
+                int
+               </tt>
+               s and
+               <tt>
+                string
+               </tt>
+               s in an assignment or an expression.  
+Only the + and - operators are valid on
+               <tt>
+                string
+               </tt>
+               s, whereas all four operators are valid on
+               <tt>
+                int
+               </tt>
+               s. 
+Both arguments to a binary operator must be variables or parameters 
+of the
+               <i>
+                same type
+               </i>
+               (no constants in expressions).
+              </p>
+              <p>
+               For example (line numbers and whitespace added for clarity):
+              </p>
+              <pre>
+	 1  function f(a,b,c)
+	 2     e:int
+	 3     g=h(a)
+	 4     e=b+c
+	 5     return c
+	 6  
+	 7  function h(p:string):string
+	 8     return p
+</pre>
+              <p>
+               The TC-- compiler will deduce the following types:
+              </p>
+              <ul>
+               <li>
+                - The type of parameter
+                <tt>
+                 a
+                </tt>
+                is
+                <tt>
+                 string
+                </tt>
+                from the call on line 
+3 to function
+                <tt>
+                 h
+                </tt>
+                - whose argument must be a
+                <tt>
+                 string
+                </tt>
+                .
+               </li>
+               <li>
+                - The type of parameters
+                <tt>
+                 b
+                </tt>
+                and
+                <tt>
+                 c
+                </tt>
+                is
+                <tt>
+                 int
+                </tt>
+                , since
+                <tt>
+                 e
+                </tt>
+                is 
+declared as an
+                <tt>
+                 int
+                </tt>
+                on line 2 and you can only add
+                <tt>
+                 int
+                </tt>
+                s together, on line 4.
+               </li>
+               <li>
+                - Since
+                <tt>
+                 c
+                </tt>
+                is an
+                <tt>
+                 int
+                </tt>
+                , and function f returns it 
+on line 5, we know that the return type of
+                <tt>
+                 f
+                </tt>
+                is
+                <tt>
+                 int
+                </tt>
+                .
+               </li>
+               <li>
+                - Therefore the complete signature of function
+                <tt>
+                 f
+                </tt>
+                is:
+                <pre>
+	function f(a:string,b:int,c:int):int
+</pre>
+               </li>
+               <li>
+                - The type of local variable
+                <tt>
+                 g
+                </tt>
+                must be
+                <tt>
+                 string
+                </tt>
+                because on line 3 
+it calls function
+                <tt>
+                 h
+                </tt>
+                , which returns a
+                <tt>
+                 string
+                </tt>
+                , defined 
+on line 7. (Note: the fact that
+                <tt>
+                 p
+                </tt>
+                is declared as a
+                <tt>
+                 string
+                </tt>
+                on line 7, and returned on line 8, is another way to 
+determine that the return type of
+                <tt>
+                 h
+                </tt>
+                is
+                <tt>
+                 string
+                </tt>
+                .)
+               </li>
+              </ul>
+              <p>
+               Write a method, deduceTypes, which is given a valid TC--
+               <b>
+                program
+               </b>
+               which follows the grammar defined above, and determines each function's 
+complete signature and the types of all local variables in each function.  The 
+program provided will be syntactically valid, and will be guaranteed to 
+have only one unique type assignment.  Your method should return a String[] 
+which contains two types of entries:
+              </p>
+              <ol>
+               <li>
+                1. function signatures,
+                <i>
+                 in the order they were defined
+                </i>
+                in
+                <b>
+                 program
+                </b>
+                , 
+in the following format:
+                <pre>
+	function name(param:type,...):type
+</pre>
+                The only whitespace should be a single space between the word 
+"
+                <tt>
+                 function
+                </tt>
+                " (quotes added for clarity) and the name of the 
+function.  As listed in the constraints section, all function and
+parameter names are single letters, lower case.
+                <br/>
+                <br/>
+               </li>
+               <li>
+                2. local variable declarations, in
+                <i>
+                 alphabetical order
+                </i>
+                within each function, 
+in the following format:
+                <pre>
+	var:type
+</pre>
+                There should be no whitespace.
+                <tt>
+                 type
+                </tt>
+                should be either 
+"
+                <tt>
+                 string
+                </tt>
+                " or "
+                <tt>
+                 int
+                </tt>
+                " (quotes added for clarity). As 
+listed in the constraints section, all variable names are single letters,
+lower case.
+               </li>
+              </ol>
+              <p>
+               Therefore, for the above example, your output should be:
+              </p>
+              <pre>
+	function f(a:string,b:int,c:int):int
+	e:int
+	g:string
+	function h(p:string):string
+</pre>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Definition
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 Class:
+                </td>
+                <td class="statText">
+                 TCMinMin
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method:
+                </td>
+                <td class="statText">
+                 deduceTypes
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Parameters:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Returns:
+                </td>
+                <td class="statText">
+                 String[]
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 Method signature:
+                </td>
+                <td class="statText">
+                 String[] deduceTypes(String[] program)
+                </td>
+               </tr>
+               <tr>
+                <td class="statText" colspan="2">
+                 (be sure your method is public)
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Notes
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Function names may be reused as parameter or variable names.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Variables can be used before they are assigned a value.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              A formal grammar for the input can be found at the end of the problem.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Constraints
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              There will be at least one function defined in
+              <b>
+               program
+              </b>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              There will be at most one definition for each function (no overloading).
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              <b>
+               program
+              </b>
+              will contain between 2 and 50 elements, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Each element in
+              <b>
+               program
+              </b>
+              contain between 3 and 50 characters, inclusive.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              All variable, parameter and function names will be single letters in lower case.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Integer constants range from zero (inclusive) to positive infinity, subject to line length constraints
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              String constants will always start and end with double quotes
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              String constants may contain any upper or lower case letter, digit, space, or any of the following characters:
+              <pre>!@#$%^*()_+`~-={}|;:,.?</pre>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Spaces (outside quotes) will only be present in two locations: 1.  After the
+              <tt>
+               function
+              </tt>
+              keyword (exactly one single space will always be present) 2. After the
+              <tt>
+               return
+              </tt>
+              keyword (exactly one single space will always be present)
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The program provided will be syntactically valid, and will be guaranteed to have only one unique type assignment.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              The number of arguments in each function call will always match the number of formal parameters defined for that function.
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" valign="top">
+              -
+             </td>
+             <td class="statText">
+              Variable names will not 'shadow' parameter names, or vice versa.
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText" colspan="2">
+              <h3>
+               Examples
+              </h3>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              0)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"function f(a,b,c)",
+	"e:int",
+	"g=h(a)",
+	"e=b+c",
+	"return c",
+"function h(p:string):string",
+	"return p"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "function f(a:string,b:int,c:int):int",
+ "e:int",
+ "g:string",
+ "function h(p:string):string" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    This is the example from above. (Note that the indenting was added for clarity only, and is NOT within the strings themselves.)
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              1)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"function a()",
+	"return 0"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "function a():int" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    This is the smallest possible TC-- program.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              2)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"function a(b:int):int",
+	"c:int",
+	"return c"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "function a(b:int):int",  "c:int" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Already a fully-specified program; the compiler doesn't have much to do.
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              3)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"function f(a,b,c)",
+	"g=a(a)",
+	"f=b+c",
+	"return f",
+"function a(a:string)",
+	"return a",
+"function b()",
+	"a=f(b,a,c)",
+	"a=0123456789012345678901234567890",
+	"return a"}</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: 
+{ "function f(a:string,b:int,c:int):int",
+ "f:int",
+ "g:string",
+ "function a(a:string):string",
+ "function b():int",
+ "a:int",
+ "b:string",
+ "c:int" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+            <tr>
+             <td align="center" class="statText" nowrap="true">
+              4)
+             </td>
+             <td class="statText">
+             </td>
+            </tr>
+            <tr>
+             <td class="statText">
+             </td>
+             <td class="statText">
+              <table>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText">
+                    <pre>{"function s(s)",
+"s=s*s",
+"return s",
+"function f():int",
+"a=f()",
+"return b"}
+</pre>
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <pre>Returns: { "function s(s:int):int",  "function f():int",  "a:int",  "b:int" }</pre>
+                </td>
+               </tr>
+               <tr>
+                <td class="statText">
+                 <table>
+                  <tr>
+                   <td class="statText" colspan="2">
+                    Remember, * and / are only for integers, not strings.
+                    <hr/>
+                    <p>
+                     For your reference, the BNF grammar for TC-- is:
+                    </p>
+                    <pre>
+	program ::= function | program function
+	function ::= functionDef optionalLocalVars optionalStatements returnStmt
+	functionDef ::= 'function' var '(' optionalParams ')' | 
+			'function' var '(' optionalParams ')'  ':' type
+	optionalParams ::= params | e
+	params ::= param | param ',' params
+	param ::= var | var ':' type
+	optionalLocalVars ::= localVars | e
+	localVars ::= localVar | localVar localVars
+	localVar ::= var ':' type
+	type ::= 'int' | 'string'
+	optionalStatements ::= statements | e
+	statements ::= statement | statement statements
+	statement ::= funCall | assign | expression
+	funCall ::= var '=' var '(' optionalArgs ')'
+	optionalArgs ::= args | e
+	args ::= var | var ',' args
+	assign ::= var '=' intConstant | var '=' stringConstant | var '=' var
+	expression ::= var '=' var op var 
+	returnStmt ::= 'return' var | 'return' intConstant | 'return' stringConstant
+	op ::= '+' | '-' | '*' | '/'
+	intConstant ::= 0..infinity
+	stringConstant ::= '"' chars '"'
+	chars ::= char | chars char
+	char ::= [a-zA-Z0-9!@#$%^*()_+`~-={}|;:,.? ]
+	var ::= [a-z]
+</pre>
+                    (Note, 'e' means empty and [] is used for grouping)
+                   </td>
+                  </tr>
+                 </table>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+           <hr/>
+           <p>
+            This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2010, TopCoder, Inc.  All rights reserved.
+           </p>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="7">
+           <img alt="" border="0" height="3" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td background="/i/steel_blue_bg.gif" class="statText" colspan="7">
+           <img alt="" border="0" height="5" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           <img alt="" border="0" height="16" src="/i/clear.gif" width="1"/>
+          </td>
+         </tr>
+         <tr>
+          <td class="statText" colspan="7">
+           This problem was used for:
+           <br/>
+           <a href="/tc?module=ProblemDetail&amp;rd=5859&amp;pm=2897">
+            Single Round Match 213 Round 1 - Division I, Level Three
+           </a>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%">
+        <img alt="" border="0" height="10" src="/i/clear.gif" width="1"/>
+       </td>
+      </tr>
+     </table>
+     <p>
+      <br/>
+     </p>
+     <!-- END BODY -->
+    </td>
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <td class="alignTop" valign="top" width="180">
+     <img border="0" height="1" src="/i/clear.gif" width="180"/>
+     <script language="javascript" type="text/javascript">
+     </script>
+     <div class="rightColContent">
+      <br/>
+      <br/>
+     </div>
+    </td>
+    <!-- Gutter -->
+    <td width="10">
+     <img border="0" height="1" src="/i/clear.gif" width="10"/>
+    </td>
+    <!-- Gutter Ends -->
+   </tr>
+  </table>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6340959-1']);
+  _gaq.push(['_setDomainName', '.topcoder.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"applicationID":"5697673","applicationTime":59,"beacon":"beacon-3.newrelic.com","queueTime":0,"licenseKey":"496af5ee90","transactionName":"ZlcBbBQAChBSARIKXV8dKWs2ThcXUhYPEEZYURAXFhMLAV8HCzBGUEYGVQMPEE1ZERY=","agent":"js-agent.newrelic.com\/nr-476.min.js","errorBeacon":"bam.nr-data.net"}
+  </script>
+ </body>
+</html>
