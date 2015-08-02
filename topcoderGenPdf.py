@@ -51,18 +51,19 @@ for filename in filelist:
 		out = open('./proc_htmls/{0}'.format(filename), 'w')
 		out.write(parse)
 		out.close()
-
-		# options = {
-		#     'page-size': 'A5',
-		#     'margin-top': '0.30in',
-		#     'margin-right': '0.0in',
-		#     'margin-bottom': '0.30in',
-		#     'margin-left': '0.0in',
-		# }
-
-		# pdfkit.from_string(parse, './PDFs/{0}.pdf'.format(filename), options = options)
 	except:
 		failed += 1
+
+	options = {
+	    'page-size': 'A5',
+	    'margin-top': '0.30in',
+	    'margin-right': '0.0in',
+	    'margin-bottom': '0.30in',
+	    'margin-left': '0.0in',
+	    'cache-dir': 'html_cache'
+	}
+
+	pdfkit.from_file(open('./proc_htmls/{0}'.format(filename)), './PDFs/{0}.pdf'.format(filename), options = options)
 
 	print "Failed", failed
 	curr += 1
