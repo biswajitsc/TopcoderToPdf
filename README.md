@@ -1,2 +1,2 @@
-# topcoderToPdf
-A crawler to crawl topcoder problems and compile into a single PDF file.
+# TopcoderToPDF Crawler
+Crawls Topcoder problems and compiles into a single PDF file for portability.
