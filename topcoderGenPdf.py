@@ -7,7 +7,7 @@ import time
 import os
 
 curr = 0
-done = -1
+done = 620
 
 filelist = os.listdir('htmls')
 # filelist = ['Single Round Match 625 Round 1 - Division I, Level Two']
@@ -21,6 +21,7 @@ for filename in filelist:
 		continue
 
 	print "Printing", curr, filename
+	parse_fail = False
 
 	try:
 		parse = bs(open('./htmls/'+filename))
@@ -31,21 +32,6 @@ for filename in filelist:
 		node = parse.find_all('span', 'bodySubhead')[0]
 		node.string = unicode('\n  '+filename+'\n')
 
-		# head = parse.find_all('head')
-		# head.append(parse.new_tag("link", type="text/css", rel="stylesheet", href="./TopCoder Statistics - Problem Archive_files/coders.css"))
-		# head.append(parse.new_tag("link", type="text/css", rel="stylesheet", href="./TopCoder Statistics - Problem Archive_files/login.css"))
-		# head.append(parse.new_tag("link", type="text/css", rel="stylesheet", href="./TopCoder Statistics - Problem Archive_files/myHome.css"))
-		# head.append(parse.new_tag("link", type="text/css", rel="stylesheet", href="./TopCoder Statistics - Problem Archive_files/newStyles.css"))
-
-		# base = parse.find_all('base')[0]
-		# base['href'] = './page_files/'
-
-		# for link in parse.find_all('link')[1:]:
-		# 	link['href'] = '.'+link['href']
-
-		# for script in parse.find_all('script', src = True):
-		# 	script['src'] = '.'+script['src']
-
 		parse = parse.prettify(formatter = 'normal')
 
 		out = open('./proc_htmls/{0}'.format(filename), 'w')
@@ -53,6 +39,7 @@ for filename in filelist:
 		out.close()
 	except:
 		failed += 1
+		parse_fail = True
 
 	options = {
 	    'page-size': 'A5',
@@ -60,14 +47,18 @@ for filename in filelist:
 	    'margin-right': '0.0in',
 	    'margin-bottom': '0.30in',
 	    'margin-left': '0.0in',
-	    'cache-dir': 'html_cache'
+	    'cache-dir': 'html_cache',
+	    'proxy': '10.3.100.207:8080'
 	}
 
-	pdfkit.from_file(open('./proc_htmls/{0}'.format(filename)), './PDFs/{0}.pdf'.format(filename), options = options)
+	if not parse_fail:
+		pdfkit.from_file(open('./proc_htmls/{0}'.format(filename)), './PDFs/{0}.pdf'.format(filename), options = options)
+	else:
+		print "File does not exist"
 
 	print "Failed", failed
 	curr += 1
 
-	# time.sleep(2)
+	time.sleep(1)
 
 	# break

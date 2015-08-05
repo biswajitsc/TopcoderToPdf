@@ -1,0 +1,3 @@
+[submodule "PyPDF2"]
+	path = PyPDF2
+	url = https://github.com/hannal/PyPDF2.git
