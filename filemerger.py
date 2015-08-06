@@ -42,23 +42,49 @@ def main():
 
     files = files[:-1]
 
+    srms = []
+    others = []
+    for f in files:
+        if f.startswith('Single Round Match'):
+            srms.append(f)
+        else:
+            others.append(f)
+
     # print files[50]
     # print alphanum_key(files[50])
 
-    pagenumbers = open('pagenumbers.txt','w')
-    curr = 0
+    srmpagenumbers = open('./Merged/srmpagenumbers.txt','w')
+    otherpagenumbers = open('./Merged/otherpagenumbers.txt','w')
 
+    curr = 0
     merger = PdfFileMerger()
 
-    for f in files:
+    for f in srms:
         inp = PdfFileReader(file('./PDFs/'+f,'rb'))
         numpages = inp.getNumPages()
-        pagenumbers.write(str(curr)+", "+f+"\n")
+        srmpagenumbers.write(str(curr)+",, "+f+"\n")
         curr += numpages
 
         merger.append(inp)
 
-    merger.write('merged.pdf')
+    merger.write('./Merged/srmmerged.pdf')
+
+
+    curr = 0
+    merger = PdfFileMerger()
+
+    for f in others:
+        inp = PdfFileReader(file('./PDFs/'+f,'rb'))
+        numpages = inp.getNumPages()
+        otherpagenumbers.write(str(curr)+",, "+f+"\n")
+        curr += numpages
+
+        merger.append(inp)
+
+    merger.write('./Merged/othermerged.pdf')
+
+    srmpagenumbers.close()
+    otherpagenumbers.close()
 
 if __name__ == '__main__':
     main()
