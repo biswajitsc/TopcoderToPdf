@@ -44,6 +44,7 @@ for line in srmpages.readlines():
     line[0] = str(int(line[0])+srmoffset)
     line[1] = line[1].replace('&','\&')
     line[1] = line[1].replace('.pdf','')
+    line[1] = line[1].replace('Round 1 ','')
 
     srmtexcode += "\\hyperlink{page."+line[0]+"}{"+line[1]+"}\n\n"
 
