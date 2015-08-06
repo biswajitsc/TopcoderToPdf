@@ -1,5 +1,5 @@
 *.html
 *.pdf
-*.proc_htmls
-
-
+*.log
+./proc_htmls/*
+./html_cache/*
