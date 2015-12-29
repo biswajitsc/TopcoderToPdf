@@ -48,7 +48,7 @@ for filename in filelist:
 	    'margin-bottom': '0.30in',
 	    'margin-left': '0.0in',
 	    'cache-dir': 'html_cache',
-	    'proxy': '10.3.100.207:8080'
+	    # 'proxy': '10.3.100.207:8080'
 	}
 
 	if not parse_fail:
