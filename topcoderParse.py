@@ -52,7 +52,7 @@ def getproblem(urlname):
 problems = getproblemlist()
 print len(problems), "Problems"
 cnt = 1
-done = 3738
+done = 0
 
 for file in problems:
 	print cnt, ": ",
