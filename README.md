@@ -21,3 +21,4 @@ Documentation
 	    # 'proxy': '10.3.100.207:8080'
 	}
 	```
+* __Note:__ Install the version of PyPDF2 that is provided in this repository. The newer versions do not seem to work in this situation.
