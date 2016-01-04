@@ -1,5 +1,6 @@
 # TopcoderToPDF Crawler
 Crawls Topcoder problems and compiles into a single PDF file for portability.
+
 __Note:__ After cloning the repository, you need to run ```git submodule update --init --recursive``` to fetch the PyPDF2 submodule. Install the version of PyPDF2 that is provided in this repository. The newer versions do not seem to work in this situation.
 
 Documentation
