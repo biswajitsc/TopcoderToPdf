@@ -1,6 +1,8 @@
 # TopcoderToPDF Crawler
 Crawls/downloads algorithmic problems from the Topcoder problem archive and compiles them into a single PDF file for portability.
 
+__Note:__ This project is no longer active. If you are using this and it does not work, please try to fix it yourself.
+
 Library requirements
 ------------
 * pdfkit
